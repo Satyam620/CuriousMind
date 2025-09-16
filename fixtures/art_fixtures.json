@@ -1,0 +1,2414 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": 7,
+  "fields": {
+    "title": "Art - Quiz",
+    "description": "Quiz containing 3 questions from Art",
+    "created_at": "2025-09-13T06:28:03.782Z",
+    "updated_at": "2025-09-13T06:28:03.782Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 52,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What was the major distinction between the English and French Gothic styles of architecture?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 205,
+  "fields": {
+    "question": 52,
+    "choice_text": "Gargoyles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 206,
+  "fields": {
+    "question": 52,
+    "choice_text": "Fan vaulting",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 207,
+  "fields": {
+    "question": 52,
+    "choice_text": "Hemispherical Domes",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 208,
+  "fields": {
+    "question": 52,
+    "choice_text": "Pinnacles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 804,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who sculpted the statue of David?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3213,
+  "fields": {
+    "question": 804,
+    "choice_text": "Donatello",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3214,
+  "fields": {
+    "question": 804,
+    "choice_text": "Michelangelo",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3215,
+  "fields": {
+    "question": 804,
+    "choice_text": "Auguste Rodin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3216,
+  "fields": {
+    "question": 804,
+    "choice_text": "Gian Lorenzo Bernini",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 849,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is the world's oldest known piece of fiction?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3393,
+  "fields": {
+    "question": 849,
+    "choice_text": "Papyrus of Ani",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3394,
+  "fields": {
+    "question": 849,
+    "choice_text": "Code of Hammurabi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3395,
+  "fields": {
+    "question": 849,
+    "choice_text": "Epic of Gilgamesh",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3396,
+  "fields": {
+    "question": 849,
+    "choice_text": "Rosetta Stone",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 834,
+  "fields": {
+    "quiz": 7,
+    "question_text": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3333,
+  "fields": {
+    "question": 834,
+    "choice_text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3334,
+  "fields": {
+    "question": 834,
+    "choice_text": "2",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3335,
+  "fields": {
+    "question": 834,
+    "choice_text": "4",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3336,
+  "fields": {
+    "question": 834,
+    "choice_text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 814,
+  "fields": {
+    "quiz": 7,
+    "question_text": "The painting \"The Starry Night\" by Vincent van Gogh was part of which art movement?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3253,
+  "fields": {
+    "question": 814,
+    "choice_text": "Impressionism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3254,
+  "fields": {
+    "question": 814,
+    "choice_text": "Neoclassical",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3255,
+  "fields": {
+    "question": 814,
+    "choice_text": "Romanticism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3256,
+  "fields": {
+    "question": 814,
+    "choice_text": "Post-Impressionism",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 815,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Albrecht Dürer's birthplace and place of death were in...",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3257,
+  "fields": {
+    "question": 815,
+    "choice_text": "Augsburg",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3258,
+  "fields": {
+    "question": 815,
+    "choice_text": "Berlin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3259,
+  "fields": {
+    "question": 815,
+    "choice_text": "Bamberg",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3260,
+  "fields": {
+    "question": 815,
+    "choice_text": "Nürnberg",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 850,
+  "fields": {
+    "quiz": 7,
+    "question_text": " What color is produced by mixing black and white?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3397,
+  "fields": {
+    "question": 850,
+    "choice_text": "White",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3398,
+  "fields": {
+    "question": 850,
+    "choice_text": "Brown",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3399,
+  "fields": {
+    "question": 850,
+    "choice_text": "Grey",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3400,
+  "fields": {
+    "question": 850,
+    "choice_text": "Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 805,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3217,
+  "fields": {
+    "question": 805,
+    "choice_text": "1502",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3218,
+  "fields": {
+    "question": 805,
+    "choice_text": "1702",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3219,
+  "fields": {
+    "question": 805,
+    "choice_text": "1402",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3220,
+  "fields": {
+    "question": 805,
+    "choice_text": "1602",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 53,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the Mona Lisa?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 209,
+  "fields": {
+    "question": 53,
+    "choice_text": "Claude Monet",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 210,
+  "fields": {
+    "question": 53,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 211,
+  "fields": {
+    "question": 53,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 212,
+  "fields": {
+    "question": 53,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 835,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3337,
+  "fields": {
+    "question": 835,
+    "choice_text": "Ukiyo-e",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3338,
+  "fields": {
+    "question": 835,
+    "choice_text": "Haiku",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3339,
+  "fields": {
+    "question": 835,
+    "choice_text": "Origami",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3340,
+  "fields": {
+    "question": 835,
+    "choice_text": "Sumi-e",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 806,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted \"The Starry Night\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3221,
+  "fields": {
+    "question": 806,
+    "choice_text": "Edvard Munch",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3222,
+  "fields": {
+    "question": 806,
+    "choice_text": "Claude Monet",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3223,
+  "fields": {
+    "question": 806,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3224,
+  "fields": {
+    "question": 806,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 54,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Albrecht Dürer's birthplace and place of death were in...",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 213,
+  "fields": {
+    "question": 54,
+    "choice_text": "Nürnberg",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 214,
+  "fields": {
+    "question": 54,
+    "choice_text": "Bamberg",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 215,
+  "fields": {
+    "question": 54,
+    "choice_text": "Berlin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 216,
+  "fields": {
+    "question": 54,
+    "choice_text": "Augsburg",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 816,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is a fundamental element of the Gothic style of architecture?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3261,
+  "fields": {
+    "question": 816,
+    "choice_text": "coffered ceilings",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3262,
+  "fields": {
+    "question": 816,
+    "choice_text": "façades surmounted by a pediment ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3263,
+  "fields": {
+    "question": 816,
+    "choice_text": "internal frescoes",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3264,
+  "fields": {
+    "question": 816,
+    "choice_text": "pointed arch",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 836,
+  "fields": {
+    "quiz": 7,
+    "question_text": " What color is produced by mixing black and white?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3341,
+  "fields": {
+    "question": 836,
+    "choice_text": "Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3342,
+  "fields": {
+    "question": 836,
+    "choice_text": "Grey",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3343,
+  "fields": {
+    "question": 836,
+    "choice_text": "White",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3344,
+  "fields": {
+    "question": 836,
+    "choice_text": "Brown",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 837,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which artist painted “The Treachery of Images,” a painting of a pipe with the description \"this is not a pipe\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3345,
+  "fields": {
+    "question": 837,
+    "choice_text": "Matisse",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3346,
+  "fields": {
+    "question": 837,
+    "choice_text": "Munch ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3347,
+  "fields": {
+    "question": 837,
+    "choice_text": "Magritte",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3348,
+  "fields": {
+    "question": 837,
+    "choice_text": "Modigliani",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 807,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is a fundamental element of the Gothic style of architecture?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3225,
+  "fields": {
+    "question": 807,
+    "choice_text": "façades surmounted by a pediment ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3226,
+  "fields": {
+    "question": 807,
+    "choice_text": "pointed arch",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3227,
+  "fields": {
+    "question": 807,
+    "choice_text": "internal frescoes",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3228,
+  "fields": {
+    "question": 807,
+    "choice_text": "coffered ceilings",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 817,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which artist painted “The Treachery of Images,” a painting of a pipe with the description \"this is not a pipe\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3265,
+  "fields": {
+    "question": 817,
+    "choice_text": "Matisse",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3266,
+  "fields": {
+    "question": 817,
+    "choice_text": "Magritte",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3267,
+  "fields": {
+    "question": 817,
+    "choice_text": "Munch ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3268,
+  "fields": {
+    "question": 817,
+    "choice_text": "Modigliani",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 838,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What nationality was the surrealist painter Salvador Dali?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3349,
+  "fields": {
+    "question": 838,
+    "choice_text": "Italian",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3350,
+  "fields": {
+    "question": 838,
+    "choice_text": "French",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3351,
+  "fields": {
+    "question": 838,
+    "choice_text": "Portuguese",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3352,
+  "fields": {
+    "question": 838,
+    "choice_text": "Spanish",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 808,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted The Starry Night?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3229,
+  "fields": {
+    "question": 808,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3230,
+  "fields": {
+    "question": 808,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3231,
+  "fields": {
+    "question": 808,
+    "choice_text": "Michelangelo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3232,
+  "fields": {
+    "question": 808,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 818,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3269,
+  "fields": {
+    "question": 818,
+    "choice_text": "Neoplasticism",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3270,
+  "fields": {
+    "question": 818,
+    "choice_text": "Cubism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3271,
+  "fields": {
+    "question": 818,
+    "choice_text": "Precisionism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3272,
+  "fields": {
+    "question": 818,
+    "choice_text": "Impressionism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 839,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which one of these paintings is not by Caspar David Friedrich?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3353,
+  "fields": {
+    "question": 839,
+    "choice_text": "The Sea of Ice",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3354,
+  "fields": {
+    "question": 839,
+    "choice_text": "The Monk by the Sea",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3355,
+  "fields": {
+    "question": 839,
+    "choice_text": "Wanderer above the Sea of Fog",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3356,
+  "fields": {
+    "question": 839,
+    "choice_text": "The Black Sea",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 819,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the Mona Lisa?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3273,
+  "fields": {
+    "question": 819,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3274,
+  "fields": {
+    "question": 819,
+    "choice_text": "Claude Monet",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3275,
+  "fields": {
+    "question": 819,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3276,
+  "fields": {
+    "question": 819,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 809,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which time signature is commonly known as “Cut Time?”",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3233,
+  "fields": {
+    "question": 809,
+    "choice_text": "2/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3234,
+  "fields": {
+    "question": 809,
+    "choice_text": "4/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3235,
+  "fields": {
+    "question": 809,
+    "choice_text": "6/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3236,
+  "fields": {
+    "question": 809,
+    "choice_text": "3/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 820,
+  "fields": {
+    "quiz": 7,
+    "question_text": " What color is produced by mixing black and white?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3277,
+  "fields": {
+    "question": 820,
+    "choice_text": "White",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3278,
+  "fields": {
+    "question": 820,
+    "choice_text": "Brown",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3279,
+  "fields": {
+    "question": 820,
+    "choice_text": "Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3280,
+  "fields": {
+    "question": 820,
+    "choice_text": "Grey",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 810,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the Sistine Chapel?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3237,
+  "fields": {
+    "question": 810,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3238,
+  "fields": {
+    "question": 810,
+    "choice_text": "Raphael",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3239,
+  "fields": {
+    "question": 810,
+    "choice_text": "Michelangelo",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3240,
+  "fields": {
+    "question": 810,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 840,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is the world's oldest known piece of fiction?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3357,
+  "fields": {
+    "question": 840,
+    "choice_text": "Papyrus of Ani",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3358,
+  "fields": {
+    "question": 840,
+    "choice_text": "Code of Hammurabi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3359,
+  "fields": {
+    "question": 840,
+    "choice_text": "Rosetta Stone",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3360,
+  "fields": {
+    "question": 840,
+    "choice_text": "Epic of Gilgamesh",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 811,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What were Marcel Duchamp's readymades?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3241,
+  "fields": {
+    "question": 811,
+    "choice_text": "a group of identical steel boxes jutting from the wall ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3242,
+  "fields": {
+    "question": 811,
+    "choice_text": "a series focused on color and light as opposed to line and shape",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3243,
+  "fields": {
+    "question": 811,
+    "choice_text": "paintings with a barely visible outlined square",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3244,
+  "fields": {
+    "question": 811,
+    "choice_text": "utilitarian objects elevated to the status of art",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 841,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the Mona Lisa?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3361,
+  "fields": {
+    "question": 841,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3362,
+  "fields": {
+    "question": 841,
+    "choice_text": " Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3363,
+  "fields": {
+    "question": 841,
+    "choice_text": "Michelangelo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3364,
+  "fields": {
+    "question": 841,
+    "choice_text": "Leonardo da Vinci ",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 821,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which one of these paintings is not by Caspar David Friedrich?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3281,
+  "fields": {
+    "question": 821,
+    "choice_text": "Wanderer above the Sea of Fog",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3282,
+  "fields": {
+    "question": 821,
+    "choice_text": "The Monk by the Sea",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3283,
+  "fields": {
+    "question": 821,
+    "choice_text": "The Sea of Ice",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3284,
+  "fields": {
+    "question": 821,
+    "choice_text": "The Black Sea",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 842,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which artist painted the late 15th century mural 'The Last Supper'?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3365,
+  "fields": {
+    "question": 842,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3366,
+  "fields": {
+    "question": 842,
+    "choice_text": "Piero della Francesca",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3367,
+  "fields": {
+    "question": 842,
+    "choice_text": "Paolo Uccello",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3368,
+  "fields": {
+    "question": 842,
+    "choice_text": "Luca Pacioli",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 812,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who designed the Chupa Chups logo?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3245,
+  "fields": {
+    "question": 812,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3246,
+  "fields": {
+    "question": 812,
+    "choice_text": "Salvador Dali",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3247,
+  "fields": {
+    "question": 812,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3248,
+  "fields": {
+    "question": 812,
+    "choice_text": "Andy Warhol",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 822,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which artist's style was to use small different colored dots to create a picture?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3285,
+  "fields": {
+    "question": 822,
+    "choice_text": "Georges Seurat",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3286,
+  "fields": {
+    "question": 822,
+    "choice_text": "Henri Rousseau",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3287,
+  "fields": {
+    "question": 822,
+    "choice_text": "Vincent Van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3288,
+  "fields": {
+    "question": 822,
+    "choice_text": "Paul Cézanne",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 813,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3249,
+  "fields": {
+    "question": 813,
+    "choice_text": "Neoplasticism",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3250,
+  "fields": {
+    "question": 813,
+    "choice_text": "Impressionism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3251,
+  "fields": {
+    "question": 813,
+    "choice_text": "Cubism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3252,
+  "fields": {
+    "question": 813,
+    "choice_text": "Precisionism",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 823,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which time signature is commonly known as “Cut Time?”",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3289,
+  "fields": {
+    "question": 823,
+    "choice_text": "4/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3290,
+  "fields": {
+    "question": 823,
+    "choice_text": "6/8",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3291,
+  "fields": {
+    "question": 823,
+    "choice_text": "2/2",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3292,
+  "fields": {
+    "question": 823,
+    "choice_text": "3/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 843,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which of these are the name of a famous marker brand?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3369,
+  "fields": {
+    "question": 843,
+    "choice_text": "Cofix",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3370,
+  "fields": {
+    "question": 843,
+    "choice_text": "Marx",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3371,
+  "fields": {
+    "question": 843,
+    "choice_text": "Copic",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3372,
+  "fields": {
+    "question": 843,
+    "choice_text": "Dopix",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 824,
+  "fields": {
+    "quiz": 7,
+    "question_text": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3293,
+  "fields": {
+    "question": 824,
+    "choice_text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3294,
+  "fields": {
+    "question": 824,
+    "choice_text": "2",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3295,
+  "fields": {
+    "question": 824,
+    "choice_text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3296,
+  "fields": {
+    "question": 824,
+    "choice_text": "4",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 844,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which artist’s studio was known as 'The Factory'?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3373,
+  "fields": {
+    "question": 844,
+    "choice_text": "Peter Blake",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3374,
+  "fields": {
+    "question": 844,
+    "choice_text": "Roy Lichtenstein",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3375,
+  "fields": {
+    "question": 844,
+    "choice_text": "Andy Warhol",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3376,
+  "fields": {
+    "question": 844,
+    "choice_text": "David Hockney",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 845,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who sculpted the statue of David?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3379,
+  "fields": {
+    "question": 845,
+    "choice_text": "Donatello",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3377,
+  "fields": {
+    "question": 845,
+    "choice_text": "Auguste Rodin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3378,
+  "fields": {
+    "question": 845,
+    "choice_text": "Gian Lorenzo Bernini",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3380,
+  "fields": {
+    "question": 845,
+    "choice_text": "Michelangelo",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 825,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which Van Gogh painting depicts the view from his asylum in Saint-Rémy-de-Provence in southern France?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3297,
+  "fields": {
+    "question": 825,
+    "choice_text": "Wheatfields with Crows",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3298,
+  "fields": {
+    "question": 825,
+    "choice_text": "The Church at Auvers",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3299,
+  "fields": {
+    "question": 825,
+    "choice_text": "The Sower with Setting Sun",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3300,
+  "fields": {
+    "question": 825,
+    "choice_text": "The Starry Night",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 846,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What year was the Mona Lisa finished?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3381,
+  "fields": {
+    "question": 846,
+    "choice_text": "1487",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3382,
+  "fields": {
+    "question": 846,
+    "choice_text": "1523",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3383,
+  "fields": {
+    "question": 846,
+    "choice_text": "1511",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3384,
+  "fields": {
+    "question": 846,
+    "choice_text": "1504",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 826,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who designed the Chupa Chups logo?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3301,
+  "fields": {
+    "question": 826,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3302,
+  "fields": {
+    "question": 826,
+    "choice_text": "Salvador Dali",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3303,
+  "fields": {
+    "question": 826,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3304,
+  "fields": {
+    "question": 826,
+    "choice_text": "Andy Warhol",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 847,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the Mona Lisa?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3385,
+  "fields": {
+    "question": 847,
+    "choice_text": "Claude Monet",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3386,
+  "fields": {
+    "question": 847,
+    "choice_text": "Pablo Picasso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3387,
+  "fields": {
+    "question": 847,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3388,
+  "fields": {
+    "question": 847,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 827,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the epic mural Guernica?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3305,
+  "fields": {
+    "question": 827,
+    "choice_text": "Francisco Goya",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3306,
+  "fields": {
+    "question": 827,
+    "choice_text": "Henri Matisse",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3307,
+  "fields": {
+    "question": 827,
+    "choice_text": "Leonardo da Vinci",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3308,
+  "fields": {
+    "question": 827,
+    "choice_text": "Pablo Picasso",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 848,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What was the major distinction between the English and French Gothic styles of architecture?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3389,
+  "fields": {
+    "question": 848,
+    "choice_text": "Gargoyles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3390,
+  "fields": {
+    "question": 848,
+    "choice_text": "Fan vaulting",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3391,
+  "fields": {
+    "question": 848,
+    "choice_text": "Pinnacles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3392,
+  "fields": {
+    "question": 848,
+    "choice_text": "Hemispherical Domes",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 828,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is the world's oldest known piece of fiction?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3309,
+  "fields": {
+    "question": 828,
+    "choice_text": "Rosetta Stone",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3310,
+  "fields": {
+    "question": 828,
+    "choice_text": "Papyrus of Ani",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3311,
+  "fields": {
+    "question": 828,
+    "choice_text": "Code of Hammurabi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3312,
+  "fields": {
+    "question": 828,
+    "choice_text": "Epic of Gilgamesh",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 829,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which of these is not an additional variation of the color purple?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 16
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3313,
+  "fields": {
+    "question": 829,
+    "choice_text": "Byzantium",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3314,
+  "fields": {
+    "question": 829,
+    "choice_text": "Kobicha",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3315,
+  "fields": {
+    "question": 829,
+    "choice_text": "Pomp and Power",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3316,
+  "fields": {
+    "question": 829,
+    "choice_text": "Palatinate",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 830,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 17
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3317,
+  "fields": {
+    "question": 830,
+    "choice_text": "Ukiyo-e",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3318,
+  "fields": {
+    "question": 830,
+    "choice_text": "Haiku",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3319,
+  "fields": {
+    "question": 830,
+    "choice_text": "Origami",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3320,
+  "fields": {
+    "question": 830,
+    "choice_text": "Sumi-e",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 831,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Which artist’s studio was known as 'The Factory'?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 18
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3321,
+  "fields": {
+    "question": 831,
+    "choice_text": "David Hockney",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3322,
+  "fields": {
+    "question": 831,
+    "choice_text": "Peter Blake",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3323,
+  "fields": {
+    "question": 831,
+    "choice_text": "Andy Warhol",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3324,
+  "fields": {
+    "question": 831,
+    "choice_text": "Roy Lichtenstein",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 832,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What nationality was the surrealist painter Salvador Dali?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 19
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3325,
+  "fields": {
+    "question": 832,
+    "choice_text": "Italian",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3326,
+  "fields": {
+    "question": 832,
+    "choice_text": "Portuguese",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3327,
+  "fields": {
+    "question": 832,
+    "choice_text": "Spanish",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3328,
+  "fields": {
+    "question": 832,
+    "choice_text": "French",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 833,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 20
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3329,
+  "fields": {
+    "question": 833,
+    "choice_text": "Jackson Pollock",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3330,
+  "fields": {
+    "question": 833,
+    "choice_text": "Edgar Degas",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3331,
+  "fields": {
+    "question": 833,
+    "choice_text": "Vincent van Gogh",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3332,
+  "fields": {
+    "question": 833,
+    "choice_text": "Salvador Dali",
+    "is_correct": true
+  }
+}
+]

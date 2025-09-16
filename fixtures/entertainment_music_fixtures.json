@@ -1,0 +1,7214 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": 10,
+  "fields": {
+    "title": "Entertainment: Music - Quiz",
+    "description": "Quiz containing 30 questions from Entertainment: Music",
+    "created_at": "2025-09-13T06:51:26.052Z",
+    "updated_at": "2025-09-13T06:51:26.052Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 88,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is NOT the name of an album released by American rapper Viper?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 349,
+  "fields": {
+    "question": 88,
+    "choice_text": "Kill Urself My Man",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 350,
+  "fields": {
+    "question": 88,
+    "choice_text": "Yo Wife Handcuffin' Me",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 351,
+  "fields": {
+    "question": 88,
+    "choice_text": "The Life of Pablo",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 352,
+  "fields": {
+    "question": 88,
+    "choice_text": "You'll Cowards Don't Even Smoke Crack",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 901,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the lead singer of the British pop rock band Coldplay?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3601,
+  "fields": {
+    "question": 901,
+    "choice_text": "Jonny Buckland",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3602,
+  "fields": {
+    "question": 901,
+    "choice_text": "Chris Martin",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3603,
+  "fields": {
+    "question": 901,
+    "choice_text": "Will Champion",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3604,
+  "fields": {
+    "question": 901,
+    "choice_text": "Guy Berryman",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 444,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who sings the rap song \"Secret Wars Part 1\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1773,
+  "fields": {
+    "question": 444,
+    "choice_text": "The Last Emperor",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1774,
+  "fields": {
+    "question": 444,
+    "choice_text": "Masta Killa",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1775,
+  "fields": {
+    "question": 444,
+    "choice_text": "MC Frontalot",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1776,
+  "fields": {
+    "question": 444,
+    "choice_text": "Busdriver",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2161,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the following stars was not mentioned in the lyrics of Madonna's \"Vogue\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8641,
+  "fields": {
+    "question": 2161,
+    "choice_text": "Grace Kelly",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8642,
+  "fields": {
+    "question": 2161,
+    "choice_text": "Mae West",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8643,
+  "fields": {
+    "question": 2161,
+    "choice_text": "Lana Turner",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8644,
+  "fields": {
+    "question": 2161,
+    "choice_text": "Marlene Dietrich",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2162,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Where was Nicki Minaj born?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8645,
+  "fields": {
+    "question": 2162,
+    "choice_text": "Saint Lucia",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8646,
+  "fields": {
+    "question": 2162,
+    "choice_text": "Trinidad and Tobago",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8647,
+  "fields": {
+    "question": 2162,
+    "choice_text": "Grenada",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8648,
+  "fields": {
+    "question": 2162,
+    "choice_text": "Haiti",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 902,
+  "fields": {
+    "quiz": 10,
+    "question_text": "\"The Day the Music Died\" was a tragic plane crash that killed three musicians in which decade?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3605,
+  "fields": {
+    "question": 902,
+    "choice_text": "40's",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3606,
+  "fields": {
+    "question": 902,
+    "choice_text": "50's",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3607,
+  "fields": {
+    "question": 902,
+    "choice_text": "60's",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3608,
+  "fields": {
+    "question": 902,
+    "choice_text": "70's",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 445,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these songs was released in 1996?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1777,
+  "fields": {
+    "question": 445,
+    "choice_text": "Prince - \"1999\"",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1778,
+  "fields": {
+    "question": 445,
+    "choice_text": "David Bowie - \"1984\"",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1779,
+  "fields": {
+    "question": 445,
+    "choice_text": "James Blunt - \"1973\"",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1780,
+  "fields": {
+    "question": 445,
+    "choice_text": "The Smashing Pumpkins - \"1979\"",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 89,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is a pioneer of \"Minimal Music\" in 1960s?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 353,
+  "fields": {
+    "question": 89,
+    "choice_text": "Wolfgang Amadeus Mozart",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 354,
+  "fields": {
+    "question": 89,
+    "choice_text": "Brian Eno",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 355,
+  "fields": {
+    "question": 89,
+    "choice_text": "Steve Reich",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 356,
+  "fields": {
+    "question": 89,
+    "choice_text": "Sigur Rós",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 446,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which band had hits in 1972 with the songs \"Baby I'm A Want You\", \"Everything I Own\" and \"The Guitar Man\"",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1781,
+  "fields": {
+    "question": 446,
+    "choice_text": "Smokie",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1782,
+  "fields": {
+    "question": 446,
+    "choice_text": "Bread",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1783,
+  "fields": {
+    "question": 446,
+    "choice_text": "America",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1784,
+  "fields": {
+    "question": 446,
+    "choice_text": "Chicago",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 90,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Kanye West at 2009 VMA's interrupted which celebrity?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 357,
+  "fields": {
+    "question": 90,
+    "choice_text": "MF DOOM",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 358,
+  "fields": {
+    "question": 90,
+    "choice_text": "Beck",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 359,
+  "fields": {
+    "question": 90,
+    "choice_text": "Taylor Swift",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 360,
+  "fields": {
+    "question": 90,
+    "choice_text": "Beyonce",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2163,
+  "fields": {
+    "quiz": 10,
+    "question_text": "In 2015, David Hasselhof released a single called...",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8649,
+  "fields": {
+    "question": 2163,
+    "choice_text": "True Survivor",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8650,
+  "fields": {
+    "question": 2163,
+    "choice_text": "Real Kung-Fury",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8651,
+  "fields": {
+    "question": 2163,
+    "choice_text": "Real Warrior",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8652,
+  "fields": {
+    "question": 2163,
+    "choice_text": "True Fighter",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 903,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3609,
+  "fields": {
+    "question": 903,
+    "choice_text": "Play",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3610,
+  "fields": {
+    "question": 903,
+    "choice_text": "Moby",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3611,
+  "fields": {
+    "question": 903,
+    "choice_text": "18",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3612,
+  "fields": {
+    "question": 903,
+    "choice_text": "Everything Is Wrong",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 904,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which Beatles album does NOT feature any of the band members on it's cover?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3613,
+  "fields": {
+    "question": 904,
+    "choice_text": "Rubber Soul",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3614,
+  "fields": {
+    "question": 904,
+    "choice_text": "Abbey Road",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3615,
+  "fields": {
+    "question": 904,
+    "choice_text": "The Beatles (White Album)",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3616,
+  "fields": {
+    "question": 904,
+    "choice_text": "Magical Mystery Tour",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 91,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who sings the rap song \"Secret Wars Part 1\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 361,
+  "fields": {
+    "question": 91,
+    "choice_text": "Busdriver",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 362,
+  "fields": {
+    "question": 91,
+    "choice_text": "MC Frontalot",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 363,
+  "fields": {
+    "question": 91,
+    "choice_text": "The Last Emperor",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 364,
+  "fields": {
+    "question": 91,
+    "choice_text": "Masta Killa",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2164,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8653,
+  "fields": {
+    "question": 2164,
+    "choice_text": "Ed O'Brien",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8654,
+  "fields": {
+    "question": 2164,
+    "choice_text": "Dave Navarro",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8655,
+  "fields": {
+    "question": 2164,
+    "choice_text": "Tom Morello ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8656,
+  "fields": {
+    "question": 2164,
+    "choice_text": "Billy Corgan",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 447,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1785,
+  "fields": {
+    "question": 447,
+    "choice_text": "Sheep",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1786,
+  "fields": {
+    "question": 447,
+    "choice_text": "Xen",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1787,
+  "fields": {
+    "question": 447,
+    "choice_text": "&&&&&&",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1788,
+  "fields": {
+    "question": 447,
+    "choice_text": "Entrañas",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 448,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Iconic cartoon character Mickey Mouse made his onscreen debut in what year?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1789,
+  "fields": {
+    "question": 448,
+    "choice_text": "1928",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1790,
+  "fields": {
+    "question": 448,
+    "choice_text": "1932",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1791,
+  "fields": {
+    "question": 448,
+    "choice_text": "1922",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1792,
+  "fields": {
+    "question": 448,
+    "choice_text": "1929",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2165,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the lead singer of The Lumineers?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8657,
+  "fields": {
+    "question": 2165,
+    "choice_text": "Wesley Schultz",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8658,
+  "fields": {
+    "question": 2165,
+    "choice_text": "Jay Van Dyke",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8659,
+  "fields": {
+    "question": 2165,
+    "choice_text": "Neyla Pekarek",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8660,
+  "fields": {
+    "question": 2165,
+    "choice_text": "Jeremiah Fraites",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 92,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Björk's \"Unison\" contains a sample of which Oval song?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 365,
+  "fields": {
+    "question": 92,
+    "choice_text": "Do While",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 366,
+  "fields": {
+    "question": 92,
+    "choice_text": "Aero Deck",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 367,
+  "fields": {
+    "question": 92,
+    "choice_text": "Panorama",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 368,
+  "fields": {
+    "question": 92,
+    "choice_text": "Textuell",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 905,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which artists' version of the song \"The Tide is High\" came first?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3617,
+  "fields": {
+    "question": 905,
+    "choice_text": "The Paragons",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3618,
+  "fields": {
+    "question": 905,
+    "choice_text": "Atomic Kitten",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3619,
+  "fields": {
+    "question": 905,
+    "choice_text": "Blondie",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3620,
+  "fields": {
+    "question": 905,
+    "choice_text": "Kardinal Offishall",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2166,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the first Studio Album to be released on the Internet with a \"Pay-What-You-Want\" price?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8661,
+  "fields": {
+    "question": 2166,
+    "choice_text": "The Help Album",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8662,
+  "fields": {
+    "question": 2166,
+    "choice_text": "Skrillex and Diplo Present Jack Ü",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8663,
+  "fields": {
+    "question": 2166,
+    "choice_text": "Blackstar",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8664,
+  "fields": {
+    "question": 2166,
+    "choice_text": "In Rainbows",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 93,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the following rappers were NOT part of the hip-hop group Odd Future?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 369,
+  "fields": {
+    "question": 93,
+    "choice_text": "Vince Staples",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 370,
+  "fields": {
+    "question": 93,
+    "choice_text": "Mike G",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 371,
+  "fields": {
+    "question": 93,
+    "choice_text": "Tyler, the Creator",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 372,
+  "fields": {
+    "question": 93,
+    "choice_text": "Frank Ocean",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 449,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which American family band had a 1986 top 10 hit with the song 'Crush On You'?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1793,
+  "fields": {
+    "question": 449,
+    "choice_text": "The Jets",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1794,
+  "fields": {
+    "question": 449,
+    "choice_text": "DeBarge",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1795,
+  "fields": {
+    "question": 449,
+    "choice_text": "The Jacksons",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1796,
+  "fields": {
+    "question": 449,
+    "choice_text": "The Cover Girls",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 906,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the following is NOT a song in BROCKHAMPTON's SATURATION album series?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3621,
+  "fields": {
+    "question": 906,
+    "choice_text": "LAMB",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3622,
+  "fields": {
+    "question": 906,
+    "choice_text": "HOTTIE",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3623,
+  "fields": {
+    "question": 906,
+    "choice_text": "BUMP",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3624,
+  "fields": {
+    "question": 906,
+    "choice_text": "SWAMP",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 907,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the vocalist and frontman of rock band \"Guns N' Roses\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3625,
+  "fields": {
+    "question": 907,
+    "choice_text": "Axl Rose",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3626,
+  "fields": {
+    "question": 907,
+    "choice_text": "Slash",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3627,
+  "fields": {
+    "question": 907,
+    "choice_text": "Kurt Cobain",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3628,
+  "fields": {
+    "question": 907,
+    "choice_text": "Bono",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2167,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is the name of a song by Tears for Fears?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8665,
+  "fields": {
+    "question": 2167,
+    "choice_text": "Yell",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8666,
+  "fields": {
+    "question": 2167,
+    "choice_text": "Shout",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8667,
+  "fields": {
+    "question": 2167,
+    "choice_text": "Shriek",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8668,
+  "fields": {
+    "question": 2167,
+    "choice_text": "Scream",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 450,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What animal is featured on the cover of English electronic music group The Prodigy's album, \"The Fat of the Land\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1797,
+  "fields": {
+    "question": 450,
+    "choice_text": "Fox",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1798,
+  "fields": {
+    "question": 450,
+    "choice_text": "Tiger",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1799,
+  "fields": {
+    "question": 450,
+    "choice_text": "Crab",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1800,
+  "fields": {
+    "question": 450,
+    "choice_text": "Elephant",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 94,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the name of the main character from the music video of \"Shelter\" by Porter Robinson and A-1 Studios?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 373,
+  "fields": {
+    "question": 94,
+    "choice_text": "Ren",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 374,
+  "fields": {
+    "question": 94,
+    "choice_text": "Ram",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 375,
+  "fields": {
+    "question": 94,
+    "choice_text": "Rin",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 376,
+  "fields": {
+    "question": 94,
+    "choice_text": "Rem",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 451,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the following is NOT a song in BROCKHAMPTON's SATURATION album series?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1801,
+  "fields": {
+    "question": 451,
+    "choice_text": "HOTTIE",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1802,
+  "fields": {
+    "question": 451,
+    "choice_text": "LAMB",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1803,
+  "fields": {
+    "question": 451,
+    "choice_text": "SWAMP",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1804,
+  "fields": {
+    "question": 451,
+    "choice_text": "BUMP",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 95,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The song \"Caramelldansen\" is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 377,
+  "fields": {
+    "question": 95,
+    "choice_text": "Hungarian",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 378,
+  "fields": {
+    "question": 95,
+    "choice_text": "Swedish",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 379,
+  "fields": {
+    "question": 95,
+    "choice_text": "Finnish",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 380,
+  "fields": {
+    "question": 95,
+    "choice_text": "Chinese",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 908,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3629,
+  "fields": {
+    "question": 908,
+    "choice_text": "Paul",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3630,
+  "fields": {
+    "question": 908,
+    "choice_text": "John",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3631,
+  "fields": {
+    "question": 908,
+    "choice_text": "Ringo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3632,
+  "fields": {
+    "question": 908,
+    "choice_text": "George",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2168,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these artists did NOT remix the song \"Faded\" by Alan Walker?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8669,
+  "fields": {
+    "question": 2168,
+    "choice_text": "Skrillex",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8670,
+  "fields": {
+    "question": 2168,
+    "choice_text": "Dash Berlin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8671,
+  "fields": {
+    "question": 2168,
+    "choice_text": "Tiësto",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8672,
+  "fields": {
+    "question": 2168,
+    "choice_text": "Slushii",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2169,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which Beatle wrote and sang the song \"Why Don't We Do It in the Road\" after being inspired by seeing two monkeys copulating in the street?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8673,
+  "fields": {
+    "question": 2169,
+    "choice_text": "Ringo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8674,
+  "fields": {
+    "question": 2169,
+    "choice_text": "Paul",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8675,
+  "fields": {
+    "question": 2169,
+    "choice_text": "George",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8676,
+  "fields": {
+    "question": 2169,
+    "choice_text": "John",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 96,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Dallon Weekes, former touring basist of Panic! At the Disco, created his own band in 2016 called...",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 381,
+  "fields": {
+    "question": 96,
+    "choice_text": "Cheats At Hide And Seek",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 382,
+  "fields": {
+    "question": 96,
+    "choice_text": "Where Did You All Come From?",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 383,
+  "fields": {
+    "question": 96,
+    "choice_text": "Run Away From The People",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 384,
+  "fields": {
+    "question": 96,
+    "choice_text": "I Don't Know How But They Found Me",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 452,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What collaborative album was released by Kanye West and Jay-Z in 2011?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1805,
+  "fields": {
+    "question": 452,
+    "choice_text": "What a Time to be Alive",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1806,
+  "fields": {
+    "question": 452,
+    "choice_text": "Distant Relatives",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1807,
+  "fields": {
+    "question": 452,
+    "choice_text": "Watch the Throne",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1808,
+  "fields": {
+    "question": 452,
+    "choice_text": "Unfinished Business",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 909,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What band featured Sting, Stewart Copeland and Andy Summers?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3633,
+  "fields": {
+    "question": 909,
+    "choice_text": "The Police",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3634,
+  "fields": {
+    "question": 909,
+    "choice_text": "The Cure",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3635,
+  "fields": {
+    "question": 909,
+    "choice_text": "Def Leppard",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3636,
+  "fields": {
+    "question": 909,
+    "choice_text": "Bon Jovi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 453,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was the title of Sakamoto Kyu's song \"Ue o Muite Arukou\" (I Look Up As I Walk) changed to in the United States?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1809,
+  "fields": {
+    "question": 453,
+    "choice_text": "Sukiyaki",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1810,
+  "fields": {
+    "question": 453,
+    "choice_text": "Sushi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1811,
+  "fields": {
+    "question": 453,
+    "choice_text": "Oden",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1812,
+  "fields": {
+    "question": 453,
+    "choice_text": "Takoyaki",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 910,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which Aerosmith album featured \"Walk This Way\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3637,
+  "fields": {
+    "question": 910,
+    "choice_text": "Get Your Wings",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3638,
+  "fields": {
+    "question": 910,
+    "choice_text": "Draw the Line",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3639,
+  "fields": {
+    "question": 910,
+    "choice_text": "Rocks",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3640,
+  "fields": {
+    "question": 910,
+    "choice_text": "Toys in the Attic",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2170,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What date is referenced in the 1971 song \"September\" by Earth, Wind & Fire?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8677,
+  "fields": {
+    "question": 2170,
+    "choice_text": "24th of September",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8678,
+  "fields": {
+    "question": 2170,
+    "choice_text": "26th of September",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8679,
+  "fields": {
+    "question": 2170,
+    "choice_text": "23rd of September",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8680,
+  "fields": {
+    "question": 2170,
+    "choice_text": "21st of September",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 97,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 385,
+  "fields": {
+    "question": 97,
+    "choice_text": "Keyboards",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 386,
+  "fields": {
+    "question": 97,
+    "choice_text": "Drums",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 387,
+  "fields": {
+    "question": 97,
+    "choice_text": "Guitar",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 388,
+  "fields": {
+    "question": 97,
+    "choice_text": "Bass Guitar",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 454,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is Pink Floyd's first album?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1813,
+  "fields": {
+    "question": 454,
+    "choice_text": "The Piper at the Gates of Dawn",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1814,
+  "fields": {
+    "question": 454,
+    "choice_text": "The Dark Side of the Moon",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1815,
+  "fields": {
+    "question": 454,
+    "choice_text": "Meddle",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1816,
+  "fields": {
+    "question": 454,
+    "choice_text": "Wish You Were Here",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 98,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of Michael Jackson's albums sold the most copies?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 389,
+  "fields": {
+    "question": 98,
+    "choice_text": "Off the Wall",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 390,
+  "fields": {
+    "question": 98,
+    "choice_text": "Thriller",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 391,
+  "fields": {
+    "question": 98,
+    "choice_text": "Dangerous",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 392,
+  "fields": {
+    "question": 98,
+    "choice_text": "Bad",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 911,
+  "fields": {
+    "quiz": 10,
+    "question_text": "A classic 1976 song by Blue Oyster Cult features the advice “Don’t Fear The” what?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3641,
+  "fields": {
+    "question": 911,
+    "choice_text": "Silence",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3642,
+  "fields": {
+    "question": 911,
+    "choice_text": "Clowns",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3643,
+  "fields": {
+    "question": 911,
+    "choice_text": "Dark",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3644,
+  "fields": {
+    "question": 911,
+    "choice_text": "Reaper",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2171,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the frontman of the band 30 Seconds to Mars?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8681,
+  "fields": {
+    "question": 2171,
+    "choice_text": "Mike Shinoda",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8682,
+  "fields": {
+    "question": 2171,
+    "choice_text": "Matthew Bellamy",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8683,
+  "fields": {
+    "question": 2171,
+    "choice_text": "Jared Leto",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8684,
+  "fields": {
+    "question": 2171,
+    "choice_text": "Gerard Way",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 99,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the name of the album released in 2014 by American band Maroon 5?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 393,
+  "fields": {
+    "question": 99,
+    "choice_text": "V",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 394,
+  "fields": {
+    "question": 99,
+    "choice_text": "IV",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 395,
+  "fields": {
+    "question": 99,
+    "choice_text": "X",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 396,
+  "fields": {
+    "question": 99,
+    "choice_text": "III",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 455,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Dallon Weekes, former touring basist of Panic! At the Disco, created his own band in 2016 called...",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1817,
+  "fields": {
+    "question": 455,
+    "choice_text": "Run Away From The People",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1818,
+  "fields": {
+    "question": 455,
+    "choice_text": "I Don't Know How But They Found Me",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1819,
+  "fields": {
+    "question": 455,
+    "choice_text": "Where Did You All Come From?",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1820,
+  "fields": {
+    "question": 455,
+    "choice_text": "Cheats At Hide And Seek",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2172,
+  "fields": {
+    "quiz": 10,
+    "question_text": "How many strings are there on a cello?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8685,
+  "fields": {
+    "question": 2172,
+    "choice_text": "5",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8686,
+  "fields": {
+    "question": 2172,
+    "choice_text": "8",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8687,
+  "fields": {
+    "question": 2172,
+    "choice_text": "4",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8688,
+  "fields": {
+    "question": 2172,
+    "choice_text": "6",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 912,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The key of sharps does the key of G# minor contain?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3645,
+  "fields": {
+    "question": 912,
+    "choice_text": "7",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3646,
+  "fields": {
+    "question": 912,
+    "choice_text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3647,
+  "fields": {
+    "question": 912,
+    "choice_text": "5",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3648,
+  "fields": {
+    "question": 912,
+    "choice_text": "0",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 913,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which band released songs such as \"Electric Feel\", \"Kids\", and \"Time to Pretend\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3649,
+  "fields": {
+    "question": 913,
+    "choice_text": "Franz Ferdinand",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3650,
+  "fields": {
+    "question": 913,
+    "choice_text": "Passion Pit",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3651,
+  "fields": {
+    "question": 913,
+    "choice_text": "MGMT",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3652,
+  "fields": {
+    "question": 913,
+    "choice_text": "Phoenix",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2173,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who wrote the musical composition, \"Rhapsody In Blue\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8689,
+  "fields": {
+    "question": 2173,
+    "choice_text": "George Gershwin",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8690,
+  "fields": {
+    "question": 2173,
+    "choice_text": "Johnny Mandel",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8691,
+  "fields": {
+    "question": 2173,
+    "choice_text": "Duke Ellington",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8692,
+  "fields": {
+    "question": 2173,
+    "choice_text": "Irving Berlin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 456,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is NOT an album released by The Beatles?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1821,
+  "fields": {
+    "question": 456,
+    "choice_text": "Abbey Road",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1822,
+  "fields": {
+    "question": 456,
+    "choice_text": "The Wall",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1823,
+  "fields": {
+    "question": 456,
+    "choice_text": "Magical Mystery Tour",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1824,
+  "fields": {
+    "question": 456,
+    "choice_text": "Revolver",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 100,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The 2023 Beatles song \"Now and Then\" originated from an unfinished demo recorded by which Beatle?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 397,
+  "fields": {
+    "question": 100,
+    "choice_text": "Paul McCartney",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 398,
+  "fields": {
+    "question": 100,
+    "choice_text": "Ringo Starr",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 399,
+  "fields": {
+    "question": 100,
+    "choice_text": "John Lennon",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 400,
+  "fields": {
+    "question": 100,
+    "choice_text": "George Harrison",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 914,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these women is not a member of the Korean girl group TWICE?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3653,
+  "fields": {
+    "question": 914,
+    "choice_text": "Kang Seulgi",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3654,
+  "fields": {
+    "question": 914,
+    "choice_text": "Kim Dahyun",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3655,
+  "fields": {
+    "question": 914,
+    "choice_text": "Myoui Mina",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3656,
+  "fields": {
+    "question": 914,
+    "choice_text": "Hirai Momo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 101,
+  "fields": {
+    "quiz": 10,
+    "question_text": "In what year was Taylor Swift born?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 401,
+  "fields": {
+    "question": 101,
+    "choice_text": "1988",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 402,
+  "fields": {
+    "question": 101,
+    "choice_text": "1987",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 403,
+  "fields": {
+    "question": 101,
+    "choice_text": "1990",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 404,
+  "fields": {
+    "question": 101,
+    "choice_text": "1989",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2174,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the stage name of New Zealand singer Phillipa \"Pip\" Brown?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8693,
+  "fields": {
+    "question": 2174,
+    "choice_text": "Kesha",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8694,
+  "fields": {
+    "question": 2174,
+    "choice_text": "Anika Moa",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8695,
+  "fields": {
+    "question": 2174,
+    "choice_text": "Ladyhawke",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8696,
+  "fields": {
+    "question": 2174,
+    "choice_text": "Lorde",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 457,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1825,
+  "fields": {
+    "question": 457,
+    "choice_text": "Major Key",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1826,
+  "fields": {
+    "question": 457,
+    "choice_text": "I Changed A Lot",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1827,
+  "fields": {
+    "question": 457,
+    "choice_text": "Don't Ever Play Yourself",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1828,
+  "fields": {
+    "question": 457,
+    "choice_text": "Suffering From Success",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 102,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was the name of the Wu-Tang Clan album Martin Shkreli bought for $2 million dollars?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 405,
+  "fields": {
+    "question": 102,
+    "choice_text": "A Better Tomorrow",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 406,
+  "fields": {
+    "question": 102,
+    "choice_text": "8 Diagrams",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 407,
+  "fields": {
+    "question": 102,
+    "choice_text": "Once Upon a Time in Shaolin",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 408,
+  "fields": {
+    "question": 102,
+    "choice_text": "The Saga Continues",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 915,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these bands are NOT from Australia?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3657,
+  "fields": {
+    "question": 915,
+    "choice_text": "The Naked and Famous",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3658,
+  "fields": {
+    "question": 915,
+    "choice_text": "Empire of the Sun",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3659,
+  "fields": {
+    "question": 915,
+    "choice_text": "Tame Impala",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3660,
+  "fields": {
+    "question": 915,
+    "choice_text": "Cut Copy",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 458,
+  "fields": {
+    "quiz": 10,
+    "question_text": "EDM producer Marshmello performs live wearing clothes and a marshmallow mask of what colour?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1829,
+  "fields": {
+    "question": 458,
+    "choice_text": "Yellow",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1830,
+  "fields": {
+    "question": 458,
+    "choice_text": "White",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1831,
+  "fields": {
+    "question": 458,
+    "choice_text": "Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1832,
+  "fields": {
+    "question": 458,
+    "choice_text": "Blue",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2175,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the lead singer of Foo Fighters?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8697,
+  "fields": {
+    "question": 2175,
+    "choice_text": "James Hetfield",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8698,
+  "fields": {
+    "question": 2175,
+    "choice_text": "Dave Grohl",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8699,
+  "fields": {
+    "question": 2175,
+    "choice_text": "Little Red Riding Hood",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8700,
+  "fields": {
+    "question": 2175,
+    "choice_text": "Dave Mustaine",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 916,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which rap group released the album \"Straight Outta Compton\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 16
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3661,
+  "fields": {
+    "question": 916,
+    "choice_text": "Beastie Boys",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3662,
+  "fields": {
+    "question": 916,
+    "choice_text": "N.W.A",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3663,
+  "fields": {
+    "question": 916,
+    "choice_text": "Run-D.M.C.",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3664,
+  "fields": {
+    "question": 916,
+    "choice_text": "Wu-Tang Clan",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 459,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which Aerosmith album featured \"Walk This Way\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 16
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1833,
+  "fields": {
+    "question": 459,
+    "choice_text": "Draw the Line",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1834,
+  "fields": {
+    "question": 459,
+    "choice_text": "Rocks",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1835,
+  "fields": {
+    "question": 459,
+    "choice_text": "Toys in the Attic",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1836,
+  "fields": {
+    "question": 459,
+    "choice_text": "Get Your Wings",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2176,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of Michael Jackson's albums sold the most copies?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 16
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8701,
+  "fields": {
+    "question": 2176,
+    "choice_text": "Dangerous",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8702,
+  "fields": {
+    "question": 2176,
+    "choice_text": "Bad",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8703,
+  "fields": {
+    "question": 2176,
+    "choice_text": "Off the Wall",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8704,
+  "fields": {
+    "question": 2176,
+    "choice_text": "Thriller",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 103,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who was the lead singer and frontman of rock band R.E.M?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 16
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 409,
+  "fields": {
+    "question": 103,
+    "choice_text": "Chris Martin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 410,
+  "fields": {
+    "question": 103,
+    "choice_text": "Michael Stipe",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 411,
+  "fields": {
+    "question": 103,
+    "choice_text": "Thom Yorke",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 412,
+  "fields": {
+    "question": 103,
+    "choice_text": "George Michael",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 460,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which rapper had an album that went double platinum with no features?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 17
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1837,
+  "fields": {
+    "question": 460,
+    "choice_text": "Drake",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1838,
+  "fields": {
+    "question": 460,
+    "choice_text": "J. Cole",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1839,
+  "fields": {
+    "question": 460,
+    "choice_text": "Big Sean",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1840,
+  "fields": {
+    "question": 460,
+    "choice_text": "Kendrick Lamar",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 917,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these Johns was murdered by gunshots outside the Dakota in New York in 1980?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 17
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3665,
+  "fields": {
+    "question": 917,
+    "choice_text": "John Lennon",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3666,
+  "fields": {
+    "question": 917,
+    "choice_text": "Johnny Thunders",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3667,
+  "fields": {
+    "question": 917,
+    "choice_text": "John Cascella",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3668,
+  "fields": {
+    "question": 917,
+    "choice_text": "John Denver",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2177,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Whose albums included \"Back in Black\" and \"Ballbreaker\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 17
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8705,
+  "fields": {
+    "question": 2177,
+    "choice_text": "Iron Maiden",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8706,
+  "fields": {
+    "question": 2177,
+    "choice_text": "Metallica",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8707,
+  "fields": {
+    "question": 2177,
+    "choice_text": "AC/DC",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8708,
+  "fields": {
+    "question": 2177,
+    "choice_text": "Black Sabbath",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 104,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 17
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 413,
+  "fields": {
+    "question": 104,
+    "choice_text": "Dave Navarro",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 414,
+  "fields": {
+    "question": 104,
+    "choice_text": "Tom Morello ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 415,
+  "fields": {
+    "question": 104,
+    "choice_text": "Ed O'Brien",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 416,
+  "fields": {
+    "question": 104,
+    "choice_text": "Billy Corgan",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 105,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the best selling album of all time from 1976 to 2018?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 18
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 417,
+  "fields": {
+    "question": 105,
+    "choice_text": "The Dark Side of the Moon",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 418,
+  "fields": {
+    "question": 105,
+    "choice_text": "Thriller",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 419,
+  "fields": {
+    "question": 105,
+    "choice_text": "Abbey Road",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 420,
+  "fields": {
+    "question": 105,
+    "choice_text": "Back in Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 461,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Where does the Mac part of the name Fleetwood Mac come from?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 18
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1841,
+  "fields": {
+    "question": 461,
+    "choice_text": "Christine McVie",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1842,
+  "fields": {
+    "question": 461,
+    "choice_text": "Mac McAnally",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1843,
+  "fields": {
+    "question": 461,
+    "choice_text": "John McVie",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1844,
+  "fields": {
+    "question": 461,
+    "choice_text": "David Tennant",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2178,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the first track on the Dave Matthews Band album \"Before These Crowded Streets\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 18
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8709,
+  "fields": {
+    "question": 2178,
+    "choice_text": "Stay (Wasting Time)",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8710,
+  "fields": {
+    "question": 2178,
+    "choice_text": "Pantala Naga Pampa",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8711,
+  "fields": {
+    "question": 2178,
+    "choice_text": "Don't Drink The Water",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8712,
+  "fields": {
+    "question": 2178,
+    "choice_text": "Rapunzel",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 918,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which rapper had an album that went double platinum with no features?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 18
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3669,
+  "fields": {
+    "question": 918,
+    "choice_text": "Kendrick Lamar",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3670,
+  "fields": {
+    "question": 918,
+    "choice_text": "Big Sean",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3671,
+  "fields": {
+    "question": 918,
+    "choice_text": "J. Cole",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3672,
+  "fields": {
+    "question": 918,
+    "choice_text": "Drake",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 919,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the name of the 2016 studio album by the French electronic music duo Justice?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 19
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3673,
+  "fields": {
+    "question": 919,
+    "choice_text": "Safe and Sound",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3674,
+  "fields": {
+    "question": 919,
+    "choice_text": "Pleasure",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3675,
+  "fields": {
+    "question": 919,
+    "choice_text": "Randy",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3676,
+  "fields": {
+    "question": 919,
+    "choice_text": "Woman",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 106,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which band had hits in 1975 with the songs, 'One Of These Nights' & 'Lyin Eyes'?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 19
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 421,
+  "fields": {
+    "question": 106,
+    "choice_text": "The Eagles",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 422,
+  "fields": {
+    "question": 106,
+    "choice_text": "Fleetwood Mac",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 423,
+  "fields": {
+    "question": 106,
+    "choice_text": "Fools Gold",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 424,
+  "fields": {
+    "question": 106,
+    "choice_text": "The Doobie Brothers",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 462,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Swedish DJ Tim Bergling, who produced songs such as \"Levels\" and \"Wake Me Up\", is better known under what alias?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 19
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1845,
+  "fields": {
+    "question": 462,
+    "choice_text": "deadmau5",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1846,
+  "fields": {
+    "question": 462,
+    "choice_text": "Avicii",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1847,
+  "fields": {
+    "question": 462,
+    "choice_text": "Skrillex",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1848,
+  "fields": {
+    "question": 462,
+    "choice_text": "Alesso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2179,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Whose signature guitar technique is called the \"windmill\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 19
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8713,
+  "fields": {
+    "question": 2179,
+    "choice_text": "Pete Townshend",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8714,
+  "fields": {
+    "question": 2179,
+    "choice_text": "Eddie Van Halen",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8715,
+  "fields": {
+    "question": 2179,
+    "choice_text": "Jimmy Page",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8716,
+  "fields": {
+    "question": 2179,
+    "choice_text": "Jimi Hendrix",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 463,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who was the first white band to play the Apollo Theater?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 20
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1849,
+  "fields": {
+    "question": 463,
+    "choice_text": "Chuck Berry",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1850,
+  "fields": {
+    "question": 463,
+    "choice_text": "Buddy Holly and The Crickets",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1851,
+  "fields": {
+    "question": 463,
+    "choice_text": "The Beatles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 1852,
+  "fields": {
+    "question": 463,
+    "choice_text": "Elvis",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 920,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The song \"Caramelldansen\" is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 20
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3677,
+  "fields": {
+    "question": 920,
+    "choice_text": "Finnish",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3678,
+  "fields": {
+    "question": 920,
+    "choice_text": "Chinese",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3679,
+  "fields": {
+    "question": 920,
+    "choice_text": "Swedish",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3680,
+  "fields": {
+    "question": 920,
+    "choice_text": "Hungarian",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 107,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which singer was featured in Jack Ü (Skrillex & Diplo)'s 2015 song 'Where Are Ü Now'?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 20
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 425,
+  "fields": {
+    "question": 107,
+    "choice_text": "Selena Gomez",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 426,
+  "fields": {
+    "question": 107,
+    "choice_text": "Ellie Goulding",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 427,
+  "fields": {
+    "question": 107,
+    "choice_text": "The Weeknd",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 428,
+  "fields": {
+    "question": 107,
+    "choice_text": "Justin Bieber",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2180,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Artis Leon Ivey Jr. is better known as which rap artist?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 20
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8717,
+  "fields": {
+    "question": 2180,
+    "choice_text": "Dr Dre",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8718,
+  "fields": {
+    "question": 2180,
+    "choice_text": "Coolio",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8719,
+  "fields": {
+    "question": 2180,
+    "choice_text": "Ice T",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8720,
+  "fields": {
+    "question": 2180,
+    "choice_text": "Snoop Dogg",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2181,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 21
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8721,
+  "fields": {
+    "question": 2181,
+    "choice_text": "Recess",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8722,
+  "fields": {
+    "question": 2181,
+    "choice_text": "All is Fair in Love and Brostep",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8723,
+  "fields": {
+    "question": 2181,
+    "choice_text": "Scary Monsters and Nice Sprites",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8724,
+  "fields": {
+    "question": 2181,
+    "choice_text": "Rock N Roll (Will Take You to the Mountain)",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 921,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the best selling album of all time from 1976 to 2018?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 21
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3681,
+  "fields": {
+    "question": 921,
+    "choice_text": "Thriller",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3682,
+  "fields": {
+    "question": 921,
+    "choice_text": "Abbey Road",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3683,
+  "fields": {
+    "question": 921,
+    "choice_text": "Back in Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3684,
+  "fields": {
+    "question": 921,
+    "choice_text": "The Dark Side of the Moon",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 108,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is the name of a song by Tears for Fears?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 21
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 429,
+  "fields": {
+    "question": 108,
+    "choice_text": "Shout",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 430,
+  "fields": {
+    "question": 108,
+    "choice_text": "Shriek",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 431,
+  "fields": {
+    "question": 108,
+    "choice_text": "Scream",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 432,
+  "fields": {
+    "question": 108,
+    "choice_text": "Yell",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2182,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who performed the guitar solo on Michael Jackson's hit \"Beat It\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 22
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8725,
+  "fields": {
+    "question": 2182,
+    "choice_text": "Kirk Hammett",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8726,
+  "fields": {
+    "question": 2182,
+    "choice_text": "Steve Vai",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8727,
+  "fields": {
+    "question": 2182,
+    "choice_text": "Zakk Wylde",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8728,
+  "fields": {
+    "question": 2182,
+    "choice_text": "Eddie Van Halen",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 922,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who was the first white band to play the Apollo Theater?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 22
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3685,
+  "fields": {
+    "question": 922,
+    "choice_text": "Buddy Holly and The Crickets",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3686,
+  "fields": {
+    "question": 922,
+    "choice_text": "Elvis",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3687,
+  "fields": {
+    "question": 922,
+    "choice_text": "Chuck Berry",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3688,
+  "fields": {
+    "question": 922,
+    "choice_text": "The Beatles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 109,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these songs was released in 1996?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 22
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 433,
+  "fields": {
+    "question": 109,
+    "choice_text": "The Smashing Pumpkins - \"1979\"",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 434,
+  "fields": {
+    "question": 109,
+    "choice_text": "David Bowie - \"1984\"",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 435,
+  "fields": {
+    "question": 109,
+    "choice_text": "Prince - \"1999\"",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 436,
+  "fields": {
+    "question": 109,
+    "choice_text": "James Blunt - \"1973\"",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 110,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which song in Drake's \"Views\" features Future?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 23
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 437,
+  "fields": {
+    "question": 110,
+    "choice_text": "Grammys",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 438,
+  "fields": {
+    "question": 110,
+    "choice_text": "Too Good",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 439,
+  "fields": {
+    "question": 110,
+    "choice_text": "Pop Style",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 440,
+  "fields": {
+    "question": 110,
+    "choice_text": "Faithful",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 923,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which group performs the song \"Crash into Me\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 23
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3689,
+  "fields": {
+    "question": 923,
+    "choice_text": "Destiny's Child",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3690,
+  "fields": {
+    "question": 923,
+    "choice_text": "Phish",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3691,
+  "fields": {
+    "question": 923,
+    "choice_text": "The Grateful Dead",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3692,
+  "fields": {
+    "question": 923,
+    "choice_text": "Dave Matthews Band",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2183,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Swedish DJ Tim Bergling, who produced songs such as \"Levels\" and \"Wake Me Up\", is better known under what alias?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 23
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8729,
+  "fields": {
+    "question": 2183,
+    "choice_text": "Avicii",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8730,
+  "fields": {
+    "question": 2183,
+    "choice_text": "Skrillex",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8731,
+  "fields": {
+    "question": 2183,
+    "choice_text": "deadmau5",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8732,
+  "fields": {
+    "question": 2183,
+    "choice_text": "Alesso",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2184,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 24
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8733,
+  "fields": {
+    "question": 2184,
+    "choice_text": "Drum and Bass",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8734,
+  "fields": {
+    "question": 2184,
+    "choice_text": "House",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8735,
+  "fields": {
+    "question": 2184,
+    "choice_text": "Dubstep",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8736,
+  "fields": {
+    "question": 2184,
+    "choice_text": "Trance",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 111,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 24
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 441,
+  "fields": {
+    "question": 111,
+    "choice_text": "The Game of Love",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 442,
+  "fields": {
+    "question": 111,
+    "choice_text": "Doin' It Right",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 443,
+  "fields": {
+    "question": 111,
+    "choice_text": "Instant Crush",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 444,
+  "fields": {
+    "question": 111,
+    "choice_text": "Get Lucky",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 924,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which country does the power metal band \"Sabaton\" originate from?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 24
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3693,
+  "fields": {
+    "question": 924,
+    "choice_text": "United States",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3694,
+  "fields": {
+    "question": 924,
+    "choice_text": "Finland",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3695,
+  "fields": {
+    "question": 924,
+    "choice_text": "Germany",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3696,
+  "fields": {
+    "question": 924,
+    "choice_text": "Sweden",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 112,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the English title of the vaporwave track \"リサフランク420 / 現代のコンピュー\" by Macintosh Plus (Vektroid)?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 25
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 445,
+  "fields": {
+    "question": 112,
+    "choice_text": "Smoke Weed 420 / Everyday",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 446,
+  "fields": {
+    "question": 112,
+    "choice_text": "Make Your Move 420 / My Mind",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 447,
+  "fields": {
+    "question": 112,
+    "choice_text": "It's All In Your Head 420 / Understand",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 448,
+  "fields": {
+    "question": 112,
+    "choice_text": "Lisa Frank 420 / Modern Computing",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 925,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which band had hits in 1975 with the songs, 'One Of These Nights' & 'Lyin Eyes'?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 25
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3697,
+  "fields": {
+    "question": 925,
+    "choice_text": "The Doobie Brothers",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3698,
+  "fields": {
+    "question": 925,
+    "choice_text": "The Eagles",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3699,
+  "fields": {
+    "question": 925,
+    "choice_text": "Fleetwood Mac",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3700,
+  "fields": {
+    "question": 925,
+    "choice_text": "Fools Gold",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2185,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 25
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8737,
+  "fields": {
+    "question": 2185,
+    "choice_text": "18",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8738,
+  "fields": {
+    "question": 2185,
+    "choice_text": "Everything Is Wrong",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8739,
+  "fields": {
+    "question": 2185,
+    "choice_text": "Play",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8740,
+  "fields": {
+    "question": 2185,
+    "choice_text": "Moby",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2186,
+  "fields": {
+    "quiz": 10,
+    "question_text": "African-American performer Sammy Davis Jr. was known for losing which part of his body in a car accident?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 26
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8741,
+  "fields": {
+    "question": 2186,
+    "choice_text": "Right Ear",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8742,
+  "fields": {
+    "question": 2186,
+    "choice_text": "Left Eye",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8743,
+  "fields": {
+    "question": 2186,
+    "choice_text": "Right Middle Finger",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8744,
+  "fields": {
+    "question": 2186,
+    "choice_text": "Nose",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 113,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 26
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 449,
+  "fields": {
+    "question": 113,
+    "choice_text": "8th",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 450,
+  "fields": {
+    "question": 113,
+    "choice_text": "5th",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 451,
+  "fields": {
+    "question": 113,
+    "choice_text": "3rd",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 452,
+  "fields": {
+    "question": 113,
+    "choice_text": "1st",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 926,
+  "fields": {
+    "quiz": 10,
+    "question_text": "According to the RIAA: Which artist has sold the most albums by the million?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 26
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3701,
+  "fields": {
+    "question": 926,
+    "choice_text": "Michael Jackson",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3702,
+  "fields": {
+    "question": 926,
+    "choice_text": "Elvis Presley",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3703,
+  "fields": {
+    "question": 926,
+    "choice_text": "The Beatles",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3704,
+  "fields": {
+    "question": 926,
+    "choice_text": "Pink Floyd",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 927,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these songs is NOT in The Beatles' album \"Sgt. Pepper's Lonely Hearts Club Band\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 27
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3705,
+  "fields": {
+    "question": 927,
+    "choice_text": "Getting Better",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3706,
+  "fields": {
+    "question": 927,
+    "choice_text": "Lucy in the Sky with Diamonds",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3707,
+  "fields": {
+    "question": 927,
+    "choice_text": "Fixing a Hole",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3708,
+  "fields": {
+    "question": 927,
+    "choice_text": "Strawberry Fields Forever",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2187,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which rock band released the album \"The Bends\" in March 1995?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 27
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8745,
+  "fields": {
+    "question": 2187,
+    "choice_text": "Radiohead",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8746,
+  "fields": {
+    "question": 2187,
+    "choice_text": "Nirvana",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8747,
+  "fields": {
+    "question": 2187,
+    "choice_text": "U2",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8748,
+  "fields": {
+    "question": 2187,
+    "choice_text": "Coldplay",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 114,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The four strings on a violin are the G string, D string, A string, and...",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 27
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 453,
+  "fields": {
+    "question": 114,
+    "choice_text": "F string",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 454,
+  "fields": {
+    "question": 114,
+    "choice_text": "B string",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 455,
+  "fields": {
+    "question": 114,
+    "choice_text": "E string",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 456,
+  "fields": {
+    "question": 114,
+    "choice_text": "C string",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2188,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which band is the longest active band in the world with no breaks or line-up changes?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 28
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8749,
+  "fields": {
+    "question": 2188,
+    "choice_text": "Rolling Stones",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8750,
+  "fields": {
+    "question": 2188,
+    "choice_text": "Radiohead",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8751,
+  "fields": {
+    "question": 2188,
+    "choice_text": "U2",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8752,
+  "fields": {
+    "question": 2188,
+    "choice_text": "Rush",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 928,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What year was Red Hot Chill Pepper's album \"Californication\" released?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 28
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3709,
+  "fields": {
+    "question": 928,
+    "choice_text": "2000",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3710,
+  "fields": {
+    "question": 928,
+    "choice_text": "1999",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3711,
+  "fields": {
+    "question": 928,
+    "choice_text": "1992",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3712,
+  "fields": {
+    "question": 928,
+    "choice_text": "1997",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 115,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What French artist/band is known for playing on the midi instrument \"Launchpad\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 28
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 457,
+  "fields": {
+    "question": 115,
+    "choice_text": "Disclosure",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 458,
+  "fields": {
+    "question": 115,
+    "choice_text": "David Guetta",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 459,
+  "fields": {
+    "question": 115,
+    "choice_text": "Madeon",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 460,
+  "fields": {
+    "question": 115,
+    "choice_text": "Daft Punk ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 929,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which song in Drake's \"Views\" features Future?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 29
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3713,
+  "fields": {
+    "question": 929,
+    "choice_text": "Too Good",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3714,
+  "fields": {
+    "question": 929,
+    "choice_text": "Pop Style",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3715,
+  "fields": {
+    "question": 929,
+    "choice_text": "Grammys",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3716,
+  "fields": {
+    "question": 929,
+    "choice_text": "Faithful",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2189,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 29
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8753,
+  "fields": {
+    "question": 2189,
+    "choice_text": "Dwayne Johnson",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8754,
+  "fields": {
+    "question": 2189,
+    "choice_text": "Alec Baldwin",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8755,
+  "fields": {
+    "question": 2189,
+    "choice_text": "Jamie Foxx",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8756,
+  "fields": {
+    "question": 2189,
+    "choice_text": " Bruce Willis",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 116,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 29
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 461,
+  "fields": {
+    "question": 116,
+    "choice_text": "Suffering From Success",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 462,
+  "fields": {
+    "question": 116,
+    "choice_text": "Don't Ever Play Yourself",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 463,
+  "fields": {
+    "question": 116,
+    "choice_text": "Major Key",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 464,
+  "fields": {
+    "question": 116,
+    "choice_text": "I Changed A Lot",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2190,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was the title of Sakamoto Kyu's song \"Ue o Muite Arukou\" (I Look Up As I Walk) changed to in the United States?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 30
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8757,
+  "fields": {
+    "question": 2190,
+    "choice_text": "Oden",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8758,
+  "fields": {
+    "question": 2190,
+    "choice_text": "Sukiyaki",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8759,
+  "fields": {
+    "question": 2190,
+    "choice_text": "Takoyaki",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8760,
+  "fields": {
+    "question": 2190,
+    "choice_text": "Sushi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 930,
+  "fields": {
+    "quiz": 10,
+    "question_text": "How many studio albums have the duo Daft Punk released?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 30
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3717,
+  "fields": {
+    "question": 930,
+    "choice_text": "4",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3718,
+  "fields": {
+    "question": 930,
+    "choice_text": "2",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3719,
+  "fields": {
+    "question": 930,
+    "choice_text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3720,
+  "fields": {
+    "question": 930,
+    "choice_text": "5",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 117,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The Who's eponymous line, \"Teenage Wasteland\", appears in which of their songs?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 30
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 465,
+  "fields": {
+    "question": 117,
+    "choice_text": "Won't Get Fooled Again",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 466,
+  "fields": {
+    "question": 117,
+    "choice_text": "Baba O' Riley",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 467,
+  "fields": {
+    "question": 117,
+    "choice_text": "The Seeker",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 468,
+  "fields": {
+    "question": 117,
+    "choice_text": "Pinball Wizard",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2191,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is the frontman's name of the metal band Megadeth?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 31
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8761,
+  "fields": {
+    "question": 2191,
+    "choice_text": "James Hetfield",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8762,
+  "fields": {
+    "question": 2191,
+    "choice_text": "Rob Halford",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8763,
+  "fields": {
+    "question": 2191,
+    "choice_text": "Dave Mustaine",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8764,
+  "fields": {
+    "question": 2191,
+    "choice_text": "Vince Neil",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 931,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What's the most common time signature for rock songs?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 31
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3721,
+  "fields": {
+    "question": 931,
+    "choice_text": "8/12",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3722,
+  "fields": {
+    "question": 931,
+    "choice_text": "1/2",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3723,
+  "fields": {
+    "question": 931,
+    "choice_text": "4/4",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3724,
+  "fields": {
+    "question": 931,
+    "choice_text": "2/4",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2192,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which year was the album \"Floral Shoppe\" by Macintosh Plus released?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 32
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8765,
+  "fields": {
+    "question": 2192,
+    "choice_text": "2013",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8766,
+  "fields": {
+    "question": 2192,
+    "choice_text": "2014",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8767,
+  "fields": {
+    "question": 2192,
+    "choice_text": "2011",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8768,
+  "fields": {
+    "question": 2192,
+    "choice_text": "2012",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 932,
+  "fields": {
+    "quiz": 10,
+    "question_text": "'74–'75 is a 1993 single from the album Ring by what American band?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 32
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3725,
+  "fields": {
+    "question": 932,
+    "choice_text": "The Connells",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3726,
+  "fields": {
+    "question": 932,
+    "choice_text": "The Bangles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3727,
+  "fields": {
+    "question": 932,
+    "choice_text": "The Ocean Blue",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3728,
+  "fields": {
+    "question": 932,
+    "choice_text": "R.E.M.",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2193,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was the best selling album of 2015?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 33
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8769,
+  "fields": {
+    "question": 2193,
+    "choice_text": "Fetty Wap, Fetty Wap",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8770,
+  "fields": {
+    "question": 2193,
+    "choice_text": "Adele, 25",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8771,
+  "fields": {
+    "question": 2193,
+    "choice_text": "Taylor Swift, 1989",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8772,
+  "fields": {
+    "question": 2193,
+    "choice_text": "Justin Bieber, Purpose",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 933,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, \"DAMN.\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 33
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3729,
+  "fields": {
+    "question": 933,
+    "choice_text": "U2",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3730,
+  "fields": {
+    "question": 933,
+    "choice_text": "Bon Jovi",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3731,
+  "fields": {
+    "question": 933,
+    "choice_text": "Coldplay",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3732,
+  "fields": {
+    "question": 933,
+    "choice_text": "Radiohead",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 934,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which artist curated the official soundtrack for \"The Hunger Games: Mockingjay - Part 1\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 34
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3733,
+  "fields": {
+    "question": 934,
+    "choice_text": "Kanye West",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3734,
+  "fields": {
+    "question": 934,
+    "choice_text": "Lorde",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3735,
+  "fields": {
+    "question": 934,
+    "choice_text": "Charli XCX",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3736,
+  "fields": {
+    "question": 934,
+    "choice_text": "Tove Lo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2194,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 34
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8773,
+  "fields": {
+    "question": 2194,
+    "choice_text": "Brian Jones",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8774,
+  "fields": {
+    "question": 2194,
+    "choice_text": "Viktor Tsoi",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8775,
+  "fields": {
+    "question": 2194,
+    "choice_text": "Jimi Hendrix",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8776,
+  "fields": {
+    "question": 2194,
+    "choice_text": "Vladimir Vysotsky",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 935,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of the music artists did NOT perform in the Live Aid concert in Wembley Stadium, London in 1985?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 35
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3737,
+  "fields": {
+    "question": 935,
+    "choice_text": "David Bowie",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3738,
+  "fields": {
+    "question": 935,
+    "choice_text": "Queen",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3739,
+  "fields": {
+    "question": 935,
+    "choice_text": "The Rolling Stones",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3740,
+  "fields": {
+    "question": 935,
+    "choice_text": "Elton John",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2195,
+  "fields": {
+    "quiz": 10,
+    "question_text": "A classic 1976 song by Blue Oyster Cult features the advice “Don’t Fear The” what?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 35
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8777,
+  "fields": {
+    "question": 2195,
+    "choice_text": "Silence",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8778,
+  "fields": {
+    "question": 2195,
+    "choice_text": "Reaper",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8779,
+  "fields": {
+    "question": 2195,
+    "choice_text": "Clowns",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8780,
+  "fields": {
+    "question": 2195,
+    "choice_text": "Dark",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2196,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which popular rock band has a one-armed drummer?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 36
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8781,
+  "fields": {
+    "question": 2196,
+    "choice_text": "Def Leppard",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8782,
+  "fields": {
+    "question": 2196,
+    "choice_text": "Foreigner",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8783,
+  "fields": {
+    "question": 2196,
+    "choice_text": "The Beatles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8784,
+  "fields": {
+    "question": 2196,
+    "choice_text": "Lynyrd Skynyrd",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 936,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who performed \"I Took A Pill In Ibiza\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 36
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3741,
+  "fields": {
+    "question": 936,
+    "choice_text": "Harry Styles",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3742,
+  "fields": {
+    "question": 936,
+    "choice_text": "Mike Posner",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3743,
+  "fields": {
+    "question": 936,
+    "choice_text": "Robbie Williams",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3744,
+  "fields": {
+    "question": 936,
+    "choice_text": "Avicii",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2197,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What song by Tina Turner is the theme for Mad Max Beyond Thunderdome?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 37
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8785,
+  "fields": {
+    "question": 2197,
+    "choice_text": "I Don't Wanna Lose You",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8786,
+  "fields": {
+    "question": 2197,
+    "choice_text": "What's Love Got To Do With It",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8787,
+  "fields": {
+    "question": 2197,
+    "choice_text": "We Don't Need Another Hero",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8788,
+  "fields": {
+    "question": 2197,
+    "choice_text": "Let's Stay Together",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 937,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 37
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3745,
+  "fields": {
+    "question": 937,
+    "choice_text": "Dave Grohl",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3746,
+  "fields": {
+    "question": 937,
+    "choice_text": "Chris Shiflett",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3747,
+  "fields": {
+    "question": 937,
+    "choice_text": "Nate Mendel",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3748,
+  "fields": {
+    "question": 937,
+    "choice_text": "Taylor Hawkins",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 938,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which Disney character sings the song \"A Dream is a Wish Your Heart Makes\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 38
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3749,
+  "fields": {
+    "question": 938,
+    "choice_text": "Pocahontas",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3750,
+  "fields": {
+    "question": 938,
+    "choice_text": "Belle",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3751,
+  "fields": {
+    "question": 938,
+    "choice_text": "Cinderella",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3752,
+  "fields": {
+    "question": 938,
+    "choice_text": "Snow White",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2198,
+  "fields": {
+    "quiz": 10,
+    "question_text": "In what film was the Michael Jackson song \"Will You Be There\" featured?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 38
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8789,
+  "fields": {
+    "question": 2198,
+    "choice_text": "Bad Boys",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8790,
+  "fields": {
+    "question": 2198,
+    "choice_text": "Men in Black",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8791,
+  "fields": {
+    "question": 2198,
+    "choice_text": "Sleepless in Seattle",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8792,
+  "fields": {
+    "question": 2198,
+    "choice_text": "Free Willy",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 939,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the lead singer of the band Coldplay?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 39
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3753,
+  "fields": {
+    "question": 939,
+    "choice_text": "Chris Connelly",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3754,
+  "fields": {
+    "question": 939,
+    "choice_text": "Chris Martin",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3755,
+  "fields": {
+    "question": 939,
+    "choice_text": "Chris Isaak",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3756,
+  "fields": {
+    "question": 939,
+    "choice_text": "Chris Wallace",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2199,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who sings the rap song \"Secret Wars Part 1\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 39
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8793,
+  "fields": {
+    "question": 2199,
+    "choice_text": "Masta Killa",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8794,
+  "fields": {
+    "question": 2199,
+    "choice_text": "Busdriver",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8795,
+  "fields": {
+    "question": 2199,
+    "choice_text": "The Last Emperor",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8796,
+  "fields": {
+    "question": 2199,
+    "choice_text": "MC Frontalot",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 940,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these songs by artist Eminem contain the lyric \"Nice to meet you. Hi, my name is... I forgot my name!\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 40
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3757,
+  "fields": {
+    "question": 940,
+    "choice_text": "Kim",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3758,
+  "fields": {
+    "question": 940,
+    "choice_text": "Without Me",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3759,
+  "fields": {
+    "question": 940,
+    "choice_text": "Square Dance",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3760,
+  "fields": {
+    "question": 940,
+    "choice_text": "Rain Man",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2200,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The tuba is a part of which musical family?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 40
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8797,
+  "fields": {
+    "question": 2200,
+    "choice_text": "Brass",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8798,
+  "fields": {
+    "question": 2200,
+    "choice_text": "Percussion",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8799,
+  "fields": {
+    "question": 2200,
+    "choice_text": "Woodwind",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8800,
+  "fields": {
+    "question": 2200,
+    "choice_text": "Strings",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2201,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was the name of the Wu-Tang Clan album Martin Shkreli bought for $2 million dollars?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 41
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8801,
+  "fields": {
+    "question": 2201,
+    "choice_text": "Once Upon a Time in Shaolin",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8802,
+  "fields": {
+    "question": 2201,
+    "choice_text": "A Better Tomorrow",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8803,
+  "fields": {
+    "question": 2201,
+    "choice_text": "The Saga Continues",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8804,
+  "fields": {
+    "question": 2201,
+    "choice_text": "8 Diagrams",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 941,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the lead singer of Pearl Jam?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 41
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3761,
+  "fields": {
+    "question": 941,
+    "choice_text": "Eddie Vedder",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3762,
+  "fields": {
+    "question": 941,
+    "choice_text": "Stone Gossard",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3763,
+  "fields": {
+    "question": 941,
+    "choice_text": "Ozzy Osbourne",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3764,
+  "fields": {
+    "question": 941,
+    "choice_text": "Kurt Cobain",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2202,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is rapper Drake's real name?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 42
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8805,
+  "fields": {
+    "question": 2202,
+    "choice_text": "Shaun Carter",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8806,
+  "fields": {
+    "question": 2202,
+    "choice_text": "Aubrey Graham",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8807,
+  "fields": {
+    "question": 2202,
+    "choice_text": "Andre Young",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8808,
+  "fields": {
+    "question": 2202,
+    "choice_text": "Dwayne Carter",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 942,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Who is the Pink Floyd song \"Shine On You Crazy Diamond\" written about?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 42
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3765,
+  "fields": {
+    "question": 942,
+    "choice_text": "Floyd",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3766,
+  "fields": {
+    "question": 942,
+    "choice_text": "David Gilmour",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3767,
+  "fields": {
+    "question": 942,
+    "choice_text": "Syd Barrett",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3768,
+  "fields": {
+    "question": 942,
+    "choice_text": "John Lennon",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 943,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 43
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3769,
+  "fields": {
+    "question": 943,
+    "choice_text": "You Should Be Dancing",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3770,
+  "fields": {
+    "question": 943,
+    "choice_text": "Tragedy",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3771,
+  "fields": {
+    "question": 943,
+    "choice_text": "Night Fever",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3772,
+  "fields": {
+    "question": 943,
+    "choice_text": "Stayin' Alive",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2203,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which one of these songs did the group \"Men At Work\" NOT make?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 43
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8809,
+  "fields": {
+    "question": 2203,
+    "choice_text": "Down Under",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8810,
+  "fields": {
+    "question": 2203,
+    "choice_text": "Safety Dance",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8811,
+  "fields": {
+    "question": 2203,
+    "choice_text": "Who Can It Be Now?",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8812,
+  "fields": {
+    "question": 2203,
+    "choice_text": "It's a Mistake",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 944,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Where was Nicki Minaj born?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 44
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3773,
+  "fields": {
+    "question": 944,
+    "choice_text": "Saint Lucia",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3774,
+  "fields": {
+    "question": 944,
+    "choice_text": "Haiti",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3775,
+  "fields": {
+    "question": 944,
+    "choice_text": "Grenada",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3776,
+  "fields": {
+    "question": 944,
+    "choice_text": "Trinidad and Tobago",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2204,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is not an Ed Sheeran album?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 44
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8813,
+  "fields": {
+    "question": 2204,
+    "choice_text": "+",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8814,
+  "fields": {
+    "question": 2204,
+    "choice_text": "÷",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8815,
+  "fields": {
+    "question": 2204,
+    "choice_text": "-",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8816,
+  "fields": {
+    "question": 2204,
+    "choice_text": "X",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2205,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these is NOT an album released by The Beatles?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 45
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8817,
+  "fields": {
+    "question": 2205,
+    "choice_text": "Magical Mystery Tour",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8818,
+  "fields": {
+    "question": 2205,
+    "choice_text": "Abbey Road",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8819,
+  "fields": {
+    "question": 2205,
+    "choice_text": "Revolver",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8820,
+  "fields": {
+    "question": 2205,
+    "choice_text": "The Wall",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 945,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which year was the album \"Year of the Snitch\" by Death Grips released?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 45
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3777,
+  "fields": {
+    "question": 945,
+    "choice_text": "2013",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3778,
+  "fields": {
+    "question": 945,
+    "choice_text": "2018",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3779,
+  "fields": {
+    "question": 945,
+    "choice_text": "2011",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3780,
+  "fields": {
+    "question": 945,
+    "choice_text": "2017",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2206,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of these artists did NOT feature in the fitfh studio album \"Humanz\" by British virtual band Gorillaz?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 46
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8821,
+  "fields": {
+    "question": 2206,
+    "choice_text": "Vince Staples",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8822,
+  "fields": {
+    "question": 2206,
+    "choice_text": "Pusha T",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8823,
+  "fields": {
+    "question": 2206,
+    "choice_text": "Danny Brown",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8824,
+  "fields": {
+    "question": 2206,
+    "choice_text": "Snoop Dogg",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 946,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Korean girl group TWICE is under which Entertainment Label?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 46
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3781,
+  "fields": {
+    "question": 946,
+    "choice_text": "Stone Music",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3782,
+  "fields": {
+    "question": 946,
+    "choice_text": "JYP",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3783,
+  "fields": {
+    "question": 946,
+    "choice_text": "YG",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3784,
+  "fields": {
+    "question": 946,
+    "choice_text": "MBK",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2207,
+  "fields": {
+    "quiz": 10,
+    "question_text": "According to their 1974 hit, what were Brownsville Station doing \"In The Boys' Room\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 47
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8825,
+  "fields": {
+    "question": 2207,
+    "choice_text": "Lovin'",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8826,
+  "fields": {
+    "question": 2207,
+    "choice_text": "Peein'",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8827,
+  "fields": {
+    "question": 2207,
+    "choice_text": "Smokin'",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8828,
+  "fields": {
+    "question": 2207,
+    "choice_text": "Hangin'",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 947,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which of Michael Jackson's albums sold the most copies?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 47
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3785,
+  "fields": {
+    "question": 947,
+    "choice_text": "Dangerous",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3786,
+  "fields": {
+    "question": 947,
+    "choice_text": "Off the Wall",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3787,
+  "fields": {
+    "question": 947,
+    "choice_text": "Thriller",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3788,
+  "fields": {
+    "question": 947,
+    "choice_text": "Bad",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 948,
+  "fields": {
+    "quiz": 10,
+    "question_text": "The song \"Twin Size Mattress\" was written by which band?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 48
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3789,
+  "fields": {
+    "question": 948,
+    "choice_text": "The Wonder Years",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3790,
+  "fields": {
+    "question": 948,
+    "choice_text": "The Smith Street Band",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3791,
+  "fields": {
+    "question": 948,
+    "choice_text": "Twenty One Pilots",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3792,
+  "fields": {
+    "question": 948,
+    "choice_text": "The Front Bottoms",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2208,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What year did Dire Straits's Song \"Money for Nothing\" release?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 48
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8829,
+  "fields": {
+    "question": 2208,
+    "choice_text": "1991",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8830,
+  "fields": {
+    "question": 2208,
+    "choice_text": "1973",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8831,
+  "fields": {
+    "question": 2208,
+    "choice_text": "1985",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8832,
+  "fields": {
+    "question": 2208,
+    "choice_text": "1980",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 949,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What was David Bowie's real surname?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 49
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3793,
+  "fields": {
+    "question": 949,
+    "choice_text": "Carter",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3794,
+  "fields": {
+    "question": 949,
+    "choice_text": "Jones",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3795,
+  "fields": {
+    "question": 949,
+    "choice_text": "Edwards",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3796,
+  "fields": {
+    "question": 949,
+    "choice_text": "Johnson",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2209,
+  "fields": {
+    "quiz": 10,
+    "question_text": "What is Pink Floyd's first album?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 49
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8833,
+  "fields": {
+    "question": 2209,
+    "choice_text": "The Dark Side of the Moon",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8834,
+  "fields": {
+    "question": 2209,
+    "choice_text": "Wish You Were Here",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8835,
+  "fields": {
+    "question": 2209,
+    "choice_text": "The Piper at the Gates of Dawn",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8836,
+  "fields": {
+    "question": 2209,
+    "choice_text": "Meddle",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 950,
+  "fields": {
+    "quiz": 10,
+    "question_text": "\"Doctor Jones\", \"Turn Back Time\" and \"Barbie Girl\" were UK number ones for which Eurodance group?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 50
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3797,
+  "fields": {
+    "question": 950,
+    "choice_text": "Sash!",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3798,
+  "fields": {
+    "question": 950,
+    "choice_text": "Aqua",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3799,
+  "fields": {
+    "question": 950,
+    "choice_text": "Eiffel 65",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 3800,
+  "fields": {
+    "question": 950,
+    "choice_text": "Vengaboys",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 2210,
+  "fields": {
+    "quiz": 10,
+    "question_text": "Which album by American rapper Kanye West contained songs such as \"Love Lockdown\", \"Paranoid\" and \"Heartless\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 50
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8837,
+  "fields": {
+    "question": 2210,
+    "choice_text": "The Life of Pablo",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8838,
+  "fields": {
+    "question": 2210,
+    "choice_text": "Graduation",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8839,
+  "fields": {
+    "question": 2210,
+    "choice_text": "Late Registration",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 8840,
+  "fields": {
+    "question": 2210,
+    "choice_text": "808s & Heartbreak",
+    "is_correct": true
+  }
+}
+]

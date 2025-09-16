@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Quiz App",
+    "slug": "quiz-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "54.0.0",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#007AFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#007AFF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    ]
+  }
+}
