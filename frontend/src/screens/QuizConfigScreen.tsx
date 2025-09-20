@@ -138,7 +138,7 @@ export default function QuizConfigScreen({ navigation, route }: Props) {
                 styles.listItem,
                 { backgroundColor: theme.colors.surface, borderColor: theme.colors.border },
                 isSelected && styles.selectedListItem,
-                isSelected && { borderColor: option.color, backgroundColor: theme.isDark ? `${option.color}20` : `${option.color}15` }
+                isSelected && { borderColor: option.color }
               ]}
               onPress={() => onSelect(option.value)}
               activeOpacity={0.7}
@@ -197,8 +197,8 @@ export default function QuizConfigScreen({ navigation, route }: Props) {
       >
         {/* Simple Header */}
         <View style={styles.simpleHeader}>
-          <View style={styles.titleRow}>
-            <Ionicons name={categoryIcon} size={28} color={categoryColor} />
+          <View style={styles.titleColumn}>
+            <Ionicons name={categoryIcon} size={32} color={categoryColor} />
             <Text style={[styles.headerTitle, { color: theme.colors.text, ...getFontStyle() }]}>
               {category}
             </Text>
@@ -605,15 +605,16 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
     alignItems: 'center',
   },
-  titleRow: {
-    flexDirection: 'row',
+  titleColumn: {
+    flexDirection: 'column',
     alignItems: 'center',
-    marginBottom: 4,
+    marginBottom: 8,
   },
   headerTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginLeft: 12,
+    marginTop: 8,
+    textAlign: 'center',
   },
   headerSubtitle: {
     fontSize: 16,

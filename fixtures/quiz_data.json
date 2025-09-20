@@ -1,0 +1,1003 @@
+[
+{
+  "model": "quizzes.quiz",
+  "pk": 6,
+  "fields": {
+    "title": "Science & Nature - Quiz",
+    "description": "Quiz containing 5 questions from Science & Nature",
+    "created_at": "2025-09-13T06:27:26.688Z",
+    "updated_at": "2025-09-13T06:27:26.688Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 7,
+  "fields": {
+    "title": "Art - Quiz",
+    "description": "Quiz containing 3 questions from Art",
+    "created_at": "2025-09-13T06:28:03.782Z",
+    "updated_at": "2025-09-13T06:28:03.782Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 8,
+  "fields": {
+    "title": "Science: Computers - Quiz",
+    "description": "Quiz containing 3 questions from Science: Computers",
+    "created_at": "2025-09-13T06:28:16.874Z",
+    "updated_at": "2025-09-13T06:28:16.874Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 9,
+  "fields": {
+    "title": "General Knowledge - Quiz",
+    "description": "Quiz containing 30 questions from General Knowledge",
+    "created_at": "2025-09-13T06:51:20.537Z",
+    "updated_at": "2025-09-13T06:51:20.537Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 10,
+  "fields": {
+    "title": "Entertainment: Music - Quiz",
+    "description": "Quiz containing 30 questions from Entertainment: Music",
+    "created_at": "2025-09-13T06:51:26.052Z",
+    "updated_at": "2025-09-13T06:51:26.052Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 11,
+  "fields": {
+    "title": "Entertainment: Video Games - Quiz",
+    "description": "Quiz containing 30 questions from Entertainment: Video Games",
+    "created_at": "2025-09-13T06:51:31.531Z",
+    "updated_at": "2025-09-13T06:51:31.531Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 12,
+  "fields": {
+    "title": "Sports - Quiz",
+    "description": "Quiz containing 30 questions from Sports",
+    "created_at": "2025-09-13T06:51:42.359Z",
+    "updated_at": "2025-09-13T06:51:42.359Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 13,
+  "fields": {
+    "title": "Politics - Quiz",
+    "description": "Quiz containing 30 questions from Politics",
+    "created_at": "2025-09-13T06:51:47.769Z",
+    "updated_at": "2025-09-13T06:51:47.769Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 14,
+  "fields": {
+    "title": "Animals - Quiz",
+    "description": "Quiz containing 30 questions from Animals",
+    "created_at": "2025-09-13T06:51:53.187Z",
+    "updated_at": "2025-09-13T06:51:53.187Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 15,
+  "fields": {
+    "title": "History - Quiz",
+    "description": "Quiz containing 40 questions from History",
+    "created_at": "2025-09-13T06:53:55.872Z",
+    "updated_at": "2025-09-13T06:53:55.872Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 16,
+  "fields": {
+    "title": "Science: Mathematics - Quiz",
+    "description": "Quiz containing 35 questions from Science: Mathematics",
+    "created_at": "2025-09-13T06:54:15.104Z",
+    "updated_at": "2025-09-13T06:54:15.104Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 17,
+  "fields": {
+    "title": "Mythology - Quiz",
+    "description": "Quiz containing 35 questions from Mythology",
+    "created_at": "2025-09-13T06:54:29.346Z",
+    "updated_at": "2025-09-13T06:54:29.346Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 18,
+  "fields": {
+    "title": "Entertainment: Books - Quiz",
+    "description": "Quiz containing 40 questions from Entertainment: Books",
+    "created_at": "2025-09-13T06:58:55.296Z",
+    "updated_at": "2025-09-13T06:58:55.296Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 19,
+  "fields": {
+    "title": "Geography - Quiz",
+    "description": "Quiz containing 40 questions from Geography",
+    "created_at": "2025-09-13T06:59:08.549Z",
+    "updated_at": "2025-09-13T06:59:08.549Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 20,
+  "fields": {
+    "title": "Entertainment: Television - Quiz",
+    "description": "Quiz containing 45 questions from Entertainment: Television",
+    "created_at": "2025-09-13T06:59:21.923Z",
+    "updated_at": "2025-09-13T06:59:21.923Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 21,
+  "fields": {
+    "title": "Entertainment: Film - Quiz",
+    "description": "Quiz containing 40 questions from Entertainment: Film",
+    "created_at": "2025-09-13T07:08:07.342Z",
+    "updated_at": "2025-09-13T07:08:07.342Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 22,
+  "fields": {
+    "title": "Animals - Custom Quiz",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-13T13:25:50.062Z",
+    "updated_at": "2025-09-13T13:25:50.062Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 23,
+  "fields": {
+    "title": "Art - Custom Quiz - a2cbe527",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-13T14:23:10.694Z",
+    "updated_at": "2025-09-13T14:23:10.694Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 24,
+  "fields": {
+    "title": "Animals - Easy Level",
+    "description": "Custom quiz with questions from Animals (easy difficulty)",
+    "created_at": "2025-09-13T14:54:56.846Z",
+    "updated_at": "2025-09-13T15:05:28.461Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 25,
+  "fields": {
+    "title": "General Knowledge Quiz - 17625564",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-13T14:58:56.780Z",
+    "updated_at": "2025-09-13T14:58:56.780Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 26,
+  "fields": {
+    "title": "Geography - Mixed Level - 57092962",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-13T15:06:46.447Z",
+    "updated_at": "2025-09-13T15:06:46.447Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 27,
+  "fields": {
+    "title": "General Knowledge Quiz - 793fa8e9",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-13T15:12:40.788Z",
+    "updated_at": "2025-09-13T15:12:40.788Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 28,
+  "fields": {
+    "title": "General Knowledge Quiz - 596d38e6",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-13T15:22:20.448Z",
+    "updated_at": "2025-09-13T15:22:20.448Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 29,
+  "fields": {
+    "title": "Art - Mixed Level - 3916f1bb",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-13T18:41:39.961Z",
+    "updated_at": "2025-09-13T18:41:39.961Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 30,
+  "fields": {
+    "title": "Entertainment: Film - Mixed Level - f75b5351",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-13T19:23:55.930Z",
+    "updated_at": "2025-09-13T19:23:55.930Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 31,
+  "fields": {
+    "title": "Art - Mixed Level - c05b8c8c",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-13T19:30:13.807Z",
+    "updated_at": "2025-09-13T19:30:13.807Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 32,
+  "fields": {
+    "title": "Vehicles - Quiz",
+    "description": "Quiz containing 50 questions from Vehicles",
+    "created_at": "2025-09-14T04:46:09.149Z",
+    "updated_at": "2025-09-14T04:46:09.149Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33,
+  "fields": {
+    "title": "Entertainment: Japanese Anime & Manga - Quiz",
+    "description": "Quiz containing 50 questions from Entertainment: Japanese Anime & Manga",
+    "created_at": "2025-09-14T04:46:15.434Z",
+    "updated_at": "2025-09-14T04:46:15.434Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 34,
+  "fields": {
+    "title": "Entertainment: Board Games - Quiz",
+    "description": "Quiz containing 50 questions from Entertainment: Board Games",
+    "created_at": "2025-09-14T04:59:50.307Z",
+    "updated_at": "2025-09-14T04:59:50.307Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 35,
+  "fields": {
+    "title": "Entertainment: Comics - Quiz",
+    "description": "Quiz containing 50 questions from Entertainment: Comics",
+    "created_at": "2025-09-14T05:01:03.026Z",
+    "updated_at": "2025-09-14T05:01:03.026Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 36,
+  "fields": {
+    "title": "Entertainment: Cartoon & Animations - Quiz",
+    "description": "Quiz containing 50 questions from Entertainment: Cartoon & Animations",
+    "created_at": "2025-09-14T05:01:19.190Z",
+    "updated_at": "2025-09-14T05:01:19.190Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 37,
+  "fields": {
+    "title": "Computer Science Quiz - b676a23a",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-14T12:25:53.489Z",
+    "updated_at": "2025-09-14T12:25:53.489Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 38,
+  "fields": {
+    "title": "Test AI Quiz - 7fd046d4",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-14T16:15:09.076Z",
+    "updated_at": "2025-09-14T16:15:09.076Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 39,
+  "fields": {
+    "title": "Animals - Mixed Level - bb3d4b30",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-14T16:20:14.213Z",
+    "updated_at": "2025-09-14T16:20:14.213Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 40,
+  "fields": {
+    "title": "Computer Science Quiz - eb214bb5",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-14T16:23:27.714Z",
+    "updated_at": "2025-09-14T16:23:27.714Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 41,
+  "fields": {
+    "title": "Animals - Mixed Level - 6e9b2215",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-15T15:53:00.564Z",
+    "updated_at": "2025-09-15T15:53:00.564Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 42,
+  "fields": {
+    "title": "Entertainment: Board Games - Mixed Level - 51cbd861",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-15T16:37:27.646Z",
+    "updated_at": "2025-09-15T16:37:27.646Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 43,
+  "fields": {
+    "title": "General Knowledge Quiz - 1a87b9fa",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-15T16:39:55.100Z",
+    "updated_at": "2025-09-15T16:39:55.100Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 44,
+  "fields": {
+    "title": "Animals - Mixed Level - 66f35503",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-15T23:57:55.660Z",
+    "updated_at": "2025-09-15T23:57:55.660Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 45,
+  "fields": {
+    "title": "Science Quiz Challenge - 28a3d145",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-16T00:00:51.913Z",
+    "updated_at": "2025-09-16T00:00:51.913Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 12374534,
+  "fields": {
+    "title": "Sports - Quiz",
+    "description": "Quiz containing 5 questions from Sports",
+    "created_at": "2025-09-16T06:46:56.335Z",
+    "updated_at": "2025-09-16T06:46:56.335Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 15062431,
+  "fields": {
+    "title": "Science: Computers - Quiz",
+    "description": "Quiz containing 3 questions from Science: Computers",
+    "created_at": "2025-09-16T01:22:45.728Z",
+    "updated_at": "2025-09-16T01:22:45.728Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 31527702,
+  "fields": {
+    "title": "Politics - Quiz",
+    "description": "Quiz containing 2 questions from Politics",
+    "created_at": "2025-09-16T01:22:57.188Z",
+    "updated_at": "2025-09-16T01:22:57.188Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33120829,
+  "fields": {
+    "title": "Mythology - Quiz",
+    "description": "Quiz containing 2 questions from Mythology",
+    "created_at": "2025-09-16T01:21:19.383Z",
+    "updated_at": "2025-09-16T01:21:19.383Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33120830,
+  "fields": {
+    "title": "Entertainment: Cartoon & Animations - Mixed Level - 97352246",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-19T04:27:24.519Z",
+    "updated_at": "2025-09-19T04:27:24.519Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33120831,
+  "fields": {
+    "title": "Computer Science Quiz - a5c3fdc5",
+    "description": "AI-generated custom quiz for history tracking",
+    "created_at": "2025-09-19T04:28:55.606Z",
+    "updated_at": "2025-09-19T04:28:55.606Z",
+    "is_active": false,
+    "is_ai_generated": true
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33120832,
+  "fields": {
+    "title": "Animals - Mixed Level - c04307cf",
+    "description": "Custom quiz from database questions for history tracking",
+    "created_at": "2025-09-19T15:48:21.567Z",
+    "updated_at": "2025-09-19T15:48:21.567Z",
+    "is_active": false,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33120833,
+  "fields": {
+    "title": "Entertainment: Musicals & Theatres - Quiz",
+    "description": "Quiz containing 15 questions from Entertainment: Musicals & Theatres",
+    "created_at": "2025-09-20T05:11:15.963Z",
+    "updated_at": "2025-09-20T05:11:15.963Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 33120834,
+  "fields": {
+    "title": "Celebrities - Quiz",
+    "description": "Quiz containing 15 questions from Celebrities",
+    "created_at": "2025-09-20T05:11:37.198Z",
+    "updated_at": "2025-09-20T05:11:37.198Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 51,
+  "fields": {
+    "quiz": 6,
+    "question_text": "How many legs is it biologically impossible for a centipede to have?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 52,
+  "fields": {
+    "quiz": 7,
+    "question_text": "What was the major distinction between the English and French Gothic styles of architecture?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 53,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Who painted the Mona Lisa?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 54,
+  "fields": {
+    "quiz": 7,
+    "question_text": "Albrecht Dürer's birthplace and place of death were in...",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 55,
+  "fields": {
+    "quiz": 8,
+    "question_text": "What was the name of the first Bulgarian personal computer?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 56,
+  "fields": {
+    "quiz": 8,
+    "question_text": "The name of technology company HP stands for what?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 57,
+  "fields": {
+    "quiz": 8,
+    "question_text": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 58,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What is the largest organ of the human body?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 59,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Which logical fallacy means to attack the character of your opponent rather than their arguments?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 60,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What English word means to \"think deeply\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 61,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What alcoholic drink is made from molasses?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 62,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 63,
+  "fields": {
+    "quiz": 9,
+    "question_text": "The drug cartel run by Pablo Escobar originated in which South American city?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 6
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 64,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 7
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 65,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 8
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 66,
+  "fields": {
+    "quiz": 9,
+    "question_text": "How many syllables make up a haiku?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 9
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 67,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Which of these Marvel games was released on the Playstation 2?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 10
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 68,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Where does water from Poland Spring water bottles come from?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 11
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 69,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Who invented the first ever chocolate bar, in 1847?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 12
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 70,
+  "fields": {
+    "quiz": 9,
+    "question_text": "How many letters are in the English alphabet?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 13
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 71,
+  "fields": {
+    "quiz": 9,
+    "question_text": "According to the Book of Genesis in the Old Testament, how many days did it take God to create the world?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 14
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 72,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What direction does the Statue of Liberty face?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 15
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 73,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Bob and Mike Bryan were well known brothers in which sport?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 16
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 74,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What is the French word for \"fish\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 17
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 75,
+  "fields": {
+    "quiz": 9,
+    "question_text": "How many furlongs are there in a mile?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 18
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 76,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Which musician has collaborated with American producer Porter Robinson and released the 2016 song \"Shelter\"?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 19
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 77,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Which of these words refers to something made, distributed, or sold illegally?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 20
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 78,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Who is depicted on the US hundred dollar bill?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 21
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 79,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 22
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 80,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What is the unit of currency in Laos?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 23
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 81,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Which of the following is not the host of a program on NPR?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 24
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 82,
+  "fields": {
+    "quiz": 9,
+    "question_text": "What is a Burgee?",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "points": 2,
+    "order": 25
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 83,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Chartreuse is a color between yellow and what?",
+    "question_type": "multiple_choice",
+    "difficulty": "hard",
+    "points": 4,
+    "order": 26
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 84,
+  "fields": {
+    "quiz": 9,
+    "question_text": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 27
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 85,
+  "fields": {
+    "quiz": 9,
+    "question_text": 

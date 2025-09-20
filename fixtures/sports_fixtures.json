@@ -24010,5 +24010,257 @@
     "choice_text": "AS Monaco FC",
     "is_correct": false
   }
+},
+{
+  "model": "quizzes.quiz",
+  "pk": 12374534,
+  "fields": {
+    "title": "Sports - Quiz",
+    "description": "Quiz containing 5 questions from Sports",
+    "created_at": "2025-09-16T06:46:56.335Z",
+    "updated_at": "2025-09-16T06:46:56.335Z",
+    "is_active": true,
+    "is_ai_generated": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 18213190,
+  "fields": {
+    "quiz": 12374534,
+    "question_text": "Who won the 2015 Formula 1 World Championship?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 1
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 12598185,
+  "fields": {
+    "question": 18213190,
+    "choice_text": "Nico Rosberg",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 77224278,
+  "fields": {
+    "question": 18213190,
+    "choice_text": "Sebastian Vettel",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 18996356,
+  "fields": {
+    "question": 18213190,
+    "choice_text": "Lewis Hamilton",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 33701658,
+  "fields": {
+    "question": 18213190,
+    "choice_text": "Jenson Button",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 22379121,
+  "fields": {
+    "quiz": 12374534,
+    "question_text": "In golf, what name is given to a hole score of two under par?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 2
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 13930145,
+  "fields": {
+    "question": 22379121,
+    "choice_text": "Bogey",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 27837766,
+  "fields": {
+    "question": 22379121,
+    "choice_text": "Birdie",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 20583166,
+  "fields": {
+    "question": 22379121,
+    "choice_text": "Eagle",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 26999967,
+  "fields": {
+    "question": 22379121,
+    "choice_text": "Albatross",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 19673595,
+  "fields": {
+    "quiz": 12374534,
+    "question_text": "The Los Angeles Dodgers were originally from what U.S. city?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 3
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 11583215,
+  "fields": {
+    "question": 19673595,
+    "choice_text": "Seattle",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 11177402,
+  "fields": {
+    "question": 19673595,
+    "choice_text": "Las Vegas",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 32167516,
+  "fields": {
+    "question": 19673595,
+    "choice_text": "Brooklyn",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 63453620,
+  "fields": {
+    "question": 19673595,
+    "choice_text": "Boston",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 33581917,
+  "fields": {
+    "quiz": 12374534,
+    "question_text": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 4
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 26295551,
+  "fields": {
+    "question": 33581917,
+    "choice_text": "1",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 27198819,
+  "fields": {
+    "question": 33581917,
+    "choice_text": "2",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 15746058,
+  "fields": {
+    "question": 33581917,
+    "choice_text": "4",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 32241820,
+  "fields": {
+    "question": 33581917,
+    "choice_text": "3",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.question",
+  "pk": 64577729,
+  "fields": {
+    "quiz": 12374534,
+    "question_text": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "question_type": "multiple_choice",
+    "difficulty": "easy",
+    "points": 1,
+    "order": 5
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 20334936,
+  "fields": {
+    "question": 64577729,
+    "choice_text": "Kimi Raikkonen",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 28983916,
+  "fields": {
+    "question": 64577729,
+    "choice_text": "Nico Rosberg",
+    "is_correct": true
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 53177198,
+  "fields": {
+    "question": 64577729,
+    "choice_text": "Max Verstappen",
+    "is_correct": false
+  }
+},
+{
+  "model": "quizzes.choice",
+  "pk": 25581752,
+  "fields": {
+    "question": 64577729,
+    "choice_text": "Lewis Hamilton",
+    "is_correct": false
+  }
 }
 ]

@@ -170,7 +170,7 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
                     styles.listItem,
                     { backgroundColor: theme.colors.surface, borderColor: theme.colors.border },
                     isSelected && styles.selectedListItem,
-                    isSelected && { borderColor: option.color, backgroundColor: theme.isDark ? `${option.color}20` : `${option.color}15` }
+                    isSelected && { borderColor: option.color }
                   ]}
                   onPress={() => onSelect(option.value)}
                   activeOpacity={0.7}
@@ -236,7 +236,7 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
                           width: getItemWidth(numColumns),
                         },
                         isSelected && styles.selectedListItem,
-                        isSelected && { borderColor: option.color, backgroundColor: theme.isDark ? `${option.color}20` : `${option.color}15` }
+                        isSelected && { borderColor: option.color }
                       ]}
                       onPress={() => onSelect(option.value)}
                       activeOpacity={0.7}
@@ -429,9 +429,9 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
       >
         {/* Simple Header */}
         <div style={{ padding: '16px 20px', textAlign: 'center' }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '4px' }}>
-            <Ionicons name={categoryIcon} size={28} color={categoryColor} />
-            <Text style={[styles.headerTitle, { color: theme.colors.text, marginLeft: 12, ...getFontStyle() }]}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '8px' }}>
+            <Ionicons name={categoryIcon} size={32} color={categoryColor} />
+            <Text style={[styles.headerTitle, { color: theme.colors.text, marginTop: 8, textAlign: 'center', ...getFontStyle() }]}>
               {category}
             </Text>
           </div>
