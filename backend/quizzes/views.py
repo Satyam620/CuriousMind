@@ -8,12 +8,21 @@ from django.utils import timezone
 from django.db.models import Q
 from datetime import datetime, timedelta
 import random
+import json
+import time
+from decouple import config
+import google.generativeai as genai
 from .models import Quiz, Question, Choice, QuizAttempt, Answer, UserProfile
 from .serializers import (
     QuizListSerializer, QuizDetailSerializer, QuizAttemptSerializer,
     QuizSubmissionSerializer, LeaderboardEntrySerializer, UserProfileSerializer,
     QuizLeaderboardSerializer
 )
+
+# Initialize Gemini AI
+GEMINI_API_KEY = config('GEMINI_API_KEY', default=None)
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
 
 class QuizListView(generics.ListAPIView):
     queryset = Quiz.objects.filter(is_active=True)
@@ -431,3 +440,191 @@ def scheduler_status(request):
         else:
             return Response({'error': 'Invalid action. Use "start" or "stop"'},
                           status=status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def generate_ai_quiz(request):
+    """Generate an AI-powered quiz using Google Gemini"""
+
+    # Check if Gemini is configured
+    if not GEMINI_API_KEY:
+        return Response({
+            'error': 'Gemini API key is not configured. Please add your API key to the .env file.'
+        }, status=status.HTTP_503_SERVICE_UNAVAILABLE)
+
+    # Get request parameters
+    difficulty = request.data.get('difficulty', 'any')
+    question_count = int(request.data.get('question_count', 10))
+    topic = request.data.get('topic', '').strip()
+
+    # Validate parameters
+    if difficulty not in ['easy', 'medium', 'hard', 'any']:
+        return Response({'error': 'Invalid difficulty level'}, status=status.HTTP_400_BAD_REQUEST)
+
+    if question_count < 1 or question_count > 50:
+        return Response({'error': 'Question count must be between 1 and 50'}, status=status.HTTP_400_BAD_REQUEST)
+
+    # Generate quiz with retry logic
+    max_retries = 3
+    base_delay = 2
+
+    for attempt in range(max_retries):
+        try:
+            # Create the prompt
+            topic_text = f"about {topic}" if topic else "on general knowledge topics"
+            difficulty_text = (
+                "mixed difficulty levels (include a variety of easy, medium, and hard questions)"
+                if difficulty == 'any' else f"{difficulty} difficulty level"
+            )
+
+            prompt = f"""Generate a quiz {topic_text} with the following specifications:
+
+Difficulty: {difficulty_text}
+Number of questions: {question_count}
+
+Requirements:
+- Each question should have exactly 4 multiple choice options (A, B, C, D)
+- Only one option should be correct
+- Questions should be appropriate for {difficulty_text}
+- Include a mix of topics if no specific topic is provided
+- Make questions engaging and educational
+
+Please respond with ONLY a valid JSON object in this exact format:
+{{
+  "title": "Generated Quiz Title",
+  "description": "Brief description of the quiz",
+  "questions": [
+    {{
+      "question": "What is the question text?",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "correct_answer": "Option A",
+      "difficulty": "{difficulty if difficulty != 'any' else 'easy" (or "medium" or "hard" for each question individually)'}",
+      "type": "multiple_choice"
+    }}
+  ]
+}}
+
+{f'IMPORTANT: For mixed difficulty, assign each question a specific difficulty level ("easy", "medium", or "hard") based on its complexity. Make sure to include a good mix of all three difficulty levels.' if difficulty == 'any' else ''}
+
+Generate exactly {question_count} questions. Do not include any text before or after the JSON object."""
+
+            # Call Gemini API
+            model = genai.GenerativeModel('gemini-2.0-flash')
+            result = model.generate_content(prompt)
+            response_text = result.text.strip()
+
+            # Clean up response - remove markdown code blocks if present
+            if response_text.startswith('```json'):
+                response_text = response_text.replace('```json', '', 1).replace('```', '', 1).strip()
+            elif response_text.startswith('```'):
+                response_text = response_text.replace('```', '', 1).replace('```', '', 1).strip()
+
+            # Parse JSON response
+            quiz_data = json.loads(response_text)
+
+            # Validate response structure
+            if not quiz_data or not isinstance(quiz_data, dict):
+                raise ValueError('Invalid quiz data format')
+
+            if not isinstance(quiz_data.get('questions'), list) or len(quiz_data['questions']) != question_count:
+                raise ValueError(f'Expected {question_count} questions, got {len(quiz_data.get("questions", []))}')
+
+            # Validate each question
+            for q in quiz_data['questions']:
+                if not q.get('question') or not isinstance(q.get('options'), list) or len(q['options']) != 4:
+                    raise ValueError('Invalid question format')
+                if not q.get('correct_answer') or q['correct_answer'] not in q['options']:
+                    raise ValueError('Invalid correct answer')
+
+            # Transform to QuizDetail format
+            def get_points_for_difficulty(q_difficulty):
+                return {'easy': 1, 'medium': 2, 'hard': 4}.get(q_difficulty.lower(), 2)
+
+            transformed_questions = []
+            for i, gemini_question in enumerate(quiz_data['questions']):
+                choices = [
+                    {
+                        'id': j + 1,
+                        'choice_text': option,
+                        'is_correct': option == gemini_question['correct_answer']
+                    }
+                    for j, option in enumerate(gemini_question['options'])
+                ]
+
+                question_points = get_points_for_difficulty(gemini_question.get('difficulty', difficulty))
+
+                transformed_questions.append({
+                    'id': i + 1,
+                    'question_text': gemini_question['question'],
+                    'question_type': 'multiple_choice',
+                    'points': question_points,
+                    'order': i + 1,
+                    'choices': choices
+                })
+
+            total_points = sum(q['points'] for q in transformed_questions)
+
+            response_data = {
+                'id': int(time.time() * 1000),  # Unique ID based on timestamp
+                'title': quiz_data.get('title', f'{difficulty.title()} Quiz'),
+                'description': quiz_data.get('description', f'A {difficulty} difficulty quiz with {question_count} questions'),
+                'created_at': timezone.now().isoformat(),
+                'questions': transformed_questions,
+                'total_points': total_points
+            }
+
+            return Response(response_data)
+
+        except json.JSONDecodeError as e:
+            if attempt < max_retries - 1:
+                delay = base_delay * (2 ** attempt)
+                time.sleep(delay)
+                continue
+            return Response({
+                'error': 'Failed to parse AI response. Please try again.'
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+        except Exception as e:
+            error_message = str(e).lower()
+
+            # Check if retryable error
+            is_retryable = any(keyword in error_message for keyword in [
+                'overloaded', '503', '502', '504', 'timeout', 'network', 'fetch'
+            ])
+
+            if is_retryable and attempt < max_retries - 1:
+                delay = base_delay * (2 ** attempt)
+                time.sleep(delay)
+                continue
+
+            # Return specific error messages
+            if 'api_key' in error_message or 'api key' in error_message:
+                return Response({
+                    'error': 'Invalid API key. Please check your Gemini API key configuration.'
+                }, status=status.HTTP_503_SERVICE_UNAVAILABLE)
+
+            if 'overloaded' in error_message or '503' in error_message:
+                return Response({
+                    'error': 'AI service is currently overloaded. Please wait a moment and try again.'
+                }, status=status.HTTP_503_SERVICE_UNAVAILABLE)
+
+            if 'quota' in error_message or 'limit' in error_message:
+                return Response({
+                    'error': 'API quota exceeded. Please try again later or check your API usage limits.'
+                }, status=status.HTTP_429_TOO_MANY_REQUESTS)
+
+            if 'timeout' in error_message:
+                return Response({
+                    'error': 'Request timed out. Please check your internet connection and try again.'
+                }, status=status.HTTP_504_GATEWAY_TIMEOUT)
+
+            # Generic error
+            return Response({
+                'error': 'Failed to generate quiz. The AI service may be temporarily unavailable. Please try again in a few moments.'
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    # If all retries exhausted
+    return Response({
+        'error': 'Failed to generate quiz after multiple attempts. Please try again later.'
+    }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

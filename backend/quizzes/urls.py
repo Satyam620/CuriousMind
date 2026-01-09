@@ -6,6 +6,7 @@ urlpatterns = [
     path('quizzes/', views.QuizListView.as_view(), name='quiz-list'),
     path('quizzes/<int:pk>/', views.QuizDetailView.as_view(), name='quiz-detail'),
     path('quiz/generate/', views.generate_custom_quiz, name='generate-custom-quiz'),
+    path('quiz/generate-ai/', views.generate_ai_quiz, name='generate-ai-quiz'),
     path('submit/', views.submit_quiz, name='submit-quiz'),
     path('attempts/<int:user_id>/', views.get_user_attempts, name='user-attempts'),
 

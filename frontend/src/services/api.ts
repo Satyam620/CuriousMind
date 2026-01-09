@@ -180,6 +180,16 @@ export const quizAPI = {
     return response.data;
   },
 
+  // Generate an AI-powered quiz using Gemini
+  generateAIQuiz: async (config: {
+    difficulty: 'easy' | 'medium' | 'hard' | 'any';
+    question_count: number;
+    topic?: string;
+  }): Promise<QuizDetail> => {
+    const response = await api.post(API_ENDPOINTS.quiz.generateAI, config);
+    return response.data;
+  },
+
   // Submit quiz answers and get results
   submitQuizAnswers: async (submission: QuizSubmission): Promise<QuizResult> => {
     const response = await api.post(API_ENDPOINTS.quiz.submit, submission);

@@ -21,7 +21,7 @@ import { RootStackParamList, TabParamList } from "../../App";
 import { Ionicons } from "@expo/vector-icons";
 import { useTheme } from "../contexts/ThemeContext";
 import { useFont } from "../contexts/FontContext";
-import { geminiService } from "../services/geminiService";
+import { quizAPI } from "../services/api";
 import {
   QuizOption,
   difficulties,
@@ -88,12 +88,12 @@ const QuizGenerateScreen: React.FC<Props> = ({ navigation }) => {
     try {
       setIsGenerating(true);
 
-      // Generate quiz using Gemini AI
-      const generatedQuiz = await geminiService.generateQuiz(
-        selectedDifficulty as "easy" | "medium" | "hard" | "any",
-        parseInt(selectedQuestionCount),
-        quizTopic.trim() || undefined
-      );
+      // Generate quiz using backend AI service
+      const generatedQuiz = await quizAPI.generateAIQuiz({
+        difficulty: selectedDifficulty as "easy" | "medium" | "hard" | "any",
+        question_count: parseInt(selectedQuestionCount),
+        topic: quizTopic.trim() || undefined
+      });
 
       // Navigate directly to quiz screen with generated quiz
       navigation.navigate("Quiz", {
@@ -108,33 +108,23 @@ const QuizGenerateScreen: React.FC<Props> = ({ navigation }) => {
       let errorTitle = "Generation Failed";
       let errorMessage = "Failed to generate quiz. Please try again.";
 
-      if (error instanceof Error) {
-        if (
-          error.message.includes("API key") ||
-          error.message.includes("not configured")
-        ) {
+      // Check if it's an API error response
+      if (error?.response?.data?.error) {
+        errorMessage = error.response.data.error;
+
+        if (errorMessage.includes("API key") || errorMessage.includes("not configured")) {
           errorTitle = "Configuration Error";
-          errorMessage =
-            "AI service is not properly configured. Please try again later.";
-        } else if (error.message.includes("overloaded")) {
+        } else if (errorMessage.includes("overloaded")) {
           errorTitle = "Service Busy";
-          errorMessage =
-            "AI service is currently overloaded. Please wait a moment and try again.";
-        } else if (error.message.includes("quota") || error.message.includes("limit")) {
+        } else if (errorMessage.includes("quota") || errorMessage.includes("limit")) {
           errorTitle = "Quota Exceeded";
-          errorMessage =
-            "API usage limit reached. Please try again later.";
-        } else if (error.message.includes("timeout")) {
+        } else if (errorMessage.includes("timeout")) {
           errorTitle = "Request Timeout";
-          errorMessage =
-            "Quiz generation timed out. Please check your connection and try again.";
-        } else if (error.message.includes("temporarily unavailable")) {
+        } else if (errorMessage.includes("temporarily unavailable")) {
           errorTitle = "Service Unavailable";
-          errorMessage =
-            "AI service is temporarily unavailable. Please try again in a few moments.";
-        } else {
-          errorMessage = error.message;
         }
+      } else if (error instanceof Error) {
+        errorMessage = error.message;
       } else if (
         error?.code === "ECONNABORTED" ||
         error?.message?.includes("timeout")
@@ -145,7 +135,7 @@ const QuizGenerateScreen: React.FC<Props> = ({ navigation }) => {
       } else if (error?.code === "NETWORK_ERROR" || !error?.response) {
         errorTitle = "Network Error";
         errorMessage =
-          "Unable to connect to AI service. Please check your internet connection and try again.";
+          "Unable to connect to server. Please check your internet connection and try again.";
       }
 
       showAlert({

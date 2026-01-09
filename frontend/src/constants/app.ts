@@ -72,6 +72,7 @@ export const API_ENDPOINTS = {
   quiz: {
     list: '/quizzes/',
     generate: '/quiz/generate/',
+    generateAI: '/quiz/generate-ai/',
     submit: '/submit/',
     saveCustomResult: '/save-custom-result/',
   },
