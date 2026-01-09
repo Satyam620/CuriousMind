@@ -41,34 +41,36 @@ interface CategoryData {
   totalQuestions: number;
 }
 
-const { width: screenWidth } = Dimensions.get('window');
-
-// Responsive grid logic
-const getNumColumns = () => {
-  if (Platform.OS === 'web') {
-    return screenWidth >= 768 ? 2 : 1; // 2 columns on tablets/desktop, 1 on mobile web
-  }
-  return screenWidth >= 768 ? 2 : 1; // 2 columns on iPads/tablets, 1 on phones
-};
-
-const getItemWidth = (numColumns: number) => {
-  if (numColumns === 2) {
-    // For web, be more conservative with the width calculation
-    if (Platform.OS === 'web') {
-      return Math.floor((screenWidth - 120) / 2); // Very conservative for web
-    }
-    return (screenWidth - 80) / 2 - 12; // More conservative width calculation
-  }
-  return screenWidth - 32; // Single column with margins
-};
-
 const CategoryScreen: React.FC<Props> = ({ navigation }) => {
   const { theme } = useTheme();
   const { getFontStyle } = useFont();
   const [categories, setCategories] = useState<CategoryData[]>([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
-  const [numColumns, setNumColumns] = useState(getNumColumns());
+
+  // Store screen width in state for responsive updates
+  const [screenWidth, setScreenWidth] = useState(Dimensions.get('window').width);
+
+  // Responsive grid logic
+  const getNumColumns = (width: number) => {
+    if (Platform.OS === 'web') {
+      return width >= 768 ? 2 : 1; // 2 columns on tablets/desktop, 1 on mobile web
+    }
+    return width >= 768 ? 2 : 1; // 2 columns on iPads/tablets, 1 on phones
+  };
+
+  const getItemWidth = (numColumns: number, width: number) => {
+    if (numColumns === 2) {
+      // For web, be more conservative with the width calculation
+      if (Platform.OS === 'web') {
+        return Math.floor((width - 120) / 2); // Very conservative for web
+      }
+      return (width - 80) / 2 - 12; // More conservative width calculation
+    }
+    return width - 32; // Single column with margins
+  };
+
+  const [numColumns, setNumColumns] = useState(getNumColumns(screenWidth));
 
   // Animation values
   const fadeAnim = useState(new Animated.Value(0))[0];
@@ -92,8 +94,10 @@ const CategoryScreen: React.FC<Props> = ({ navigation }) => {
 
   // Handle screen size changes
   useEffect(() => {
-    const subscription = Dimensions.addEventListener('change', () => {
-      setNumColumns(getNumColumns());
+    const subscription = Dimensions.addEventListener('change', ({ window }) => {
+      const newWidth = window.width;
+      setScreenWidth(newWidth);
+      setNumColumns(getNumColumns(newWidth));
     });
 
     return () => subscription?.remove();
@@ -176,7 +180,7 @@ const CategoryScreen: React.FC<Props> = ({ navigation }) => {
         <TouchableOpacity
           style={[
             styles.categoryCard,
-            { width: getItemWidth(numColumns) },
+            { width: getItemWidth(numColumns, screenWidth) },
             numColumns === 2 && { marginBottom: 12 },
             numColumns === 1 && { alignSelf: 'center' }
           ]}

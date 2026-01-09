@@ -520,7 +520,7 @@ Please respond with ONLY a valid JSON object in this exact format:
 Generate exactly {question_count} questions. Do not include any text before or after the JSON object."""
 
             # Call Gemini API
-            model = genai.GenerativeModel('gemini-2.0-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash-lite')
             result = model.generate_content(prompt)
             response_text = result.text.strip()
 

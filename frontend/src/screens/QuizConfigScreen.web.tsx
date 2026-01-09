@@ -30,20 +30,6 @@ interface Props {
   route: QuizConfigScreenRouteProp;
 }
 
-const { width: screenWidth } = Dimensions.get('window');
-
-// Responsive grid logic for options
-const getNumColumns = () => {
-  return screenWidth >= 768 ? 2 : 1; // 2 columns on tablets/desktop, 1 on mobile web
-};
-
-const getItemWidth = (numColumns: number) => {
-  if (numColumns === 2) {
-    return (screenWidth - 64) / 2 - 8; // Account for margins and gaps
-  }
-  return screenWidth - 32; // Single column with margins
-};
-
 export default function QuizConfigScreenWeb({ navigation, route }: Props) {
   const { theme } = useTheme();
   const { getFontStyle } = useFont();
@@ -59,7 +45,23 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('any');
   const [selectedQuestionCount, setSelectedQuestionCount] = useState<string>('10');
   const [loading, setLoading] = useState(false);
-  const [numColumns, setNumColumns] = useState(getNumColumns());
+
+  // Store screen width in state for responsive updates
+  const [screenWidth, setScreenWidth] = useState(Dimensions.get('window').width);
+
+  // Responsive grid logic for options
+  const getNumColumns = (width: number) => {
+    return width >= 768 ? 2 : 1; // 2 columns on tablets/desktop, 1 on mobile web
+  };
+
+  const getItemWidth = (numColumns: number, width: number) => {
+    if (numColumns === 2) {
+      return (width - 64) / 2 - 8; // Account for margins and gaps
+    }
+    return width - 32; // Single column with margins
+  };
+
+  const [numColumns, setNumColumns] = useState(getNumColumns(screenWidth));
 
   const categoryColor = getCategoryColor(category);
   const categoryIcon = getCategoryIcon(category);
@@ -68,8 +70,10 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
 
   // Handle screen size changes
   React.useEffect(() => {
-    const subscription = Dimensions.addEventListener('change', () => {
-      setNumColumns(getNumColumns());
+    const subscription = Dimensions.addEventListener('change', ({ window }) => {
+      const newWidth = window.width;
+      setScreenWidth(newWidth);
+      setNumColumns(getNumColumns(newWidth));
     });
 
     return () => subscription?.remove();
@@ -247,7 +251,7 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
                         {
                           backgroundColor: theme.colors.surface,
                           borderColor: theme.colors.border,
-                          width: getItemWidth(numColumns),
+                          width: getItemWidth(numColumns, screenWidth),
                         },
                         isSelected && styles.selectedListItem,
                         isSelected && { borderColor: option.color }
@@ -299,7 +303,7 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
                 })}
                 {/* Fill empty space if odd number of items */}
                 {row.length < numColumns && (
-                  <View style={{ width: getItemWidth(numColumns) }} />
+                  <View style={{ width: getItemWidth(numColumns, screenWidth) }} />
                 )}
               </View>
             ))}
