@@ -154,11 +154,8 @@ REST_FRAMEWORK = {
 }
 
 # CORS settings
-CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS',
-    default='http://localhost:19006,http://127.0.0.1:19006,http://localhost:3000,http://localhost:8081,http://localhost:8082',
-    cast=lambda v: [s.strip() for s in v.split(',')])
-
-CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=True, cast=bool)  # Only for development
+# Allow all origins for development (enables iPad, Android, and other devices on local network)
+CORS_ALLOW_ALL_ORIGINS = config('CORS_ALLOW_ALL_ORIGINS', default=True, cast=bool)
 
 # JWT Settings
 from datetime import timedelta

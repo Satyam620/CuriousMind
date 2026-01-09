@@ -90,12 +90,26 @@ export default function QuizConfigScreenWeb({ navigation, route }: Props) {
 
       const quiz = await quizAPI.generateCustomQuiz(quizConfig);
 
-      navigation.navigate('Quiz', {
-        customQuiz: quiz,
-        category,
-        difficulty: selectedDifficulty,
-        questionCount: parseInt(selectedQuestionCount)
-      });
+      // Check if there's a warning about insufficient questions
+      if (quiz.warning) {
+        showAlert('Limited Questions Available', quiz.warning);
+        // Still navigate after showing the warning
+        setTimeout(() => {
+          navigation.navigate('Quiz', {
+            customQuiz: quiz,
+            category,
+            difficulty: selectedDifficulty,
+            questionCount: parseInt(selectedQuestionCount)
+          });
+        }, 2000); // Give user time to read the warning
+      } else {
+        navigation.navigate('Quiz', {
+          customQuiz: quiz,
+          category,
+          difficulty: selectedDifficulty,
+          questionCount: parseInt(selectedQuestionCount)
+        });
+      }
     } catch (error: any) {
       console.error('Quiz generation error:', error);
 

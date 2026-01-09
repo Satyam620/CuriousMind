@@ -71,12 +71,33 @@ export default function QuizConfigScreen({ navigation, route }: Props) {
 
       const quiz = await quizAPI.generateCustomQuiz(quizConfig);
 
-      navigation.navigate('Quiz', {
-        customQuiz: quiz,
-        category,
-        difficulty: selectedDifficulty,
-        questionCount: parseInt(selectedQuestionCount)
-      });
+      // Check if there's a warning about insufficient questions
+      if (quiz.warning) {
+        Alert.alert('Limited Questions Available', quiz.warning, [
+          {
+            text: 'Continue Anyway',
+            onPress: () => {
+              navigation.navigate('Quiz', {
+                customQuiz: quiz,
+                category,
+                difficulty: selectedDifficulty,
+                questionCount: parseInt(selectedQuestionCount)
+              });
+            }
+          },
+          {
+            text: 'Cancel',
+            style: 'cancel'
+          }
+        ]);
+      } else {
+        navigation.navigate('Quiz', {
+          customQuiz: quiz,
+          category,
+          difficulty: selectedDifficulty,
+          questionCount: parseInt(selectedQuestionCount)
+        });
+      }
     } catch (error: any) {
       console.error('Quiz generation error:', error);
 

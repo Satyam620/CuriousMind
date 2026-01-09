@@ -265,8 +265,8 @@ def generate_custom_quiz(request):
     if difficulty:
         quiz_filter &= Q(difficulty=difficulty)
 
-    # Get all matching questions
-    all_questions = list(Question.objects.filter(quiz_filter).select_related('quiz'))
+    # Get all matching questions with distinct check to avoid duplicates
+    all_questions = list(Question.objects.filter(quiz_filter).select_related('quiz').distinct())
 
     if not all_questions:
         return Response({
@@ -274,11 +274,17 @@ def generate_custom_quiz(request):
                     (f' with difficulty "{difficulty}"' if difficulty else '')
         }, status=status.HTTP_404_NOT_FOUND)
 
+    # Check if we have enough questions
+    available_count = len(all_questions)
+    actual_count = min(question_count, available_count)
+
+    # Prepare warning message if not enough questions
+    warning_message = None
+    if available_count < question_count:
+        warning_message = f'Only {available_count} unique question{"s" if available_count != 1 else ""} available for this category{f" with {difficulty} difficulty" if difficulty else ""}. Generating quiz with {actual_count} question{"s" if actual_count != 1 else ""}.'
+
     # Randomly select questions up to the requested count
-    selected_questions = random.sample(
-        all_questions,
-        min(question_count, len(all_questions))
-    )
+    selected_questions = random.sample(all_questions, actual_count)
 
     # Build quiz data structure
     quiz_data = {
@@ -290,6 +296,10 @@ def generate_custom_quiz(request):
         'is_ai_generated': False,
         'questions': []
     }
+
+    # Add warning to response if present
+    if warning_message:
+        quiz_data['warning'] = warning_message
 
     # Add questions with choices
     for i, question in enumerate(selected_questions):

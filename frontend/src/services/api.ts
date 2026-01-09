@@ -78,6 +78,7 @@ export interface QuizDetail {
   created_at: string;
   questions: Question[];
   total_points: number;
+  warning?: string; // Optional warning message when insufficient questions are available
 }
 
 export interface QuizSubmission {
